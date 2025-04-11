@@ -30,23 +30,64 @@ I’m passionate about programming, developing analytical skills, and exploring 
 
 ### 💻 Tech Stack:
 <p align="center">
-  <!-- Programming Languages -->
   <img src="https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white"/>
   <img src="https://img.shields.io/badge/Java-007396?style=for-the-badge&logo=java&logoColor=white"/>
   <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"/>
   <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"/>
   <img src="https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=postgresql&logoColor=white"/>
-
-  <!-- Tools & Frameworks -->
   <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black"/>
   <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white"/>
   <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/>
   <img src="https://img.shields.io/badge/Kali_Linux-557C94?style=for-the-badge&logo=kalilinux&logoColor=white"/>
   <img src="https://img.shields.io/badge/Metasploit-5e429e?style=for-the-badge&logo=metasploit&logoColor=white"/>
-
-  <!-- Design Tools -->
   <img src="https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white"/>
   <img src="https://img.shields.io/badge/Canva-00C4CC?style=for-the-badge&logo=canva&logoColor=white"/>
+</p>
+
+---
+
+### 🚀 Featured Projects
+- 🔒 [Phishing Detection Tool](https://github.com/antonysabu1/phishing-detector)
+- 🧠 [SJF CPU Scheduler (C)](https://github.com/antonysabu1/sjf-cpu-scheduling)
+
+---
+
+### 📊 GitHub Stats
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=antonysabu1&show_icons=true&theme=tokyonight&hide_border=true" />
+</p>
+
+---
+
+### 📈 GitHub Streak
+
+<p align="center">
+  <img src="https://streak-stats.demolab.com/?user=antonysabu1&theme=tokyonight&hide_border=true" />
+</p>
+
+---
+
+### 🏆 GitHub Trophies
+
+<p align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=antonysabu1&theme=tokyonight&no-bg=true&margin-w=10&column=7" />
+</p>
+
+---
+
+### 📌 Top Languages
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=antonysabu1&layout=compact&theme=tokyonight&hide_border=true" />
+</p>
+
+---
+
+### 💬 Quote of the Day
+
+<p align="center">
+  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=dark" />
 </p>
 
 ---
@@ -57,23 +98,28 @@ I’m passionate about programming, developing analytical skills, and exploring 
 
 ---
 
+### 🌍 Visitor Counter
+
+<p align="center">
+  <img src="https://profile-counter.glitch.me/antonysabu1/count.svg" />
+</p>
+
+---
+
 <p align="center">
   <img src="https://raw.githubusercontent.com/antonysabu1/antonysabu1/main/hacker-style.png" width="600px" alt="cyber hacker style image">
 </p>
 
 ---
 
-### 📈 GitHub Stats & Activity
-
 <p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=antonysabu1&theme=tokyonight" alt="GitHub Streak" />
-</p>
-
-<p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=antonysabu1&bg_color=0f0c29&color=00ffcc&line=00ffcc&point=ffffff&area=true&hide_border=true" alt="Contribution Graph" />
+  <img src="https://komarev.com/ghpvc/?username=antonysabu1&label=Profile%20views&color=0e75b6&style=flat" alt="profile views" />
 </p>
 
 ---
+
+<p align="center"><b>✨ Thank you for visiting my profile ✨</b></p>
+
 
 <p align="center">
   <img src="https://komarev.com/ghpvc/?username=antonysabu1&label=Profile%20views&color=0e75b6&style=flat" alt="profile views" />

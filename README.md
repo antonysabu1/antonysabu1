@@ -82,13 +82,6 @@ I’m passionate about programming, developing analytical skills, and exploring 
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=antonysabu1&layout=compact&theme=tokyonight&hide_border=true" />
 </p>
 
----
-
-### 💬 Quote of the Day
-
-<p align="center">
-  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=dark" />
-</p>
 
 ---
 
@@ -111,15 +104,6 @@ I’m passionate about programming, developing analytical skills, and exploring 
 </p>
 
 ---
-
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=antonysabu1&label=Profile%20views&color=0e75b6&style=flat" alt="profile views" />
-</p>
-
----
-
-<p align="center"><b>✨ Thank you for visiting my profile ✨</b></p>
-
 
 <p align="center">
   <img src="https://komarev.com/ghpvc/?username=antonysabu1&label=Profile%20views&color=0e75b6&style=flat" alt="profile views" />

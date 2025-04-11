@@ -55,7 +55,6 @@ I’m passionate about programming, developing analytical skills, and exploring 
 - 📧 Email: antonysabu2027@cy.sjcetpalai.ac.in
 - 🧑‍💻 GitHub: [@antonysabu1](https://github.com/antonysabu1)
 
--
 ---
 
 <p align="center">
@@ -64,7 +63,24 @@ I’m passionate about programming, developing analytical skills, and exploring 
 
 ---
 
+### 📈 GitHub Stats & Activity
+
+<p align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=antonysabu1&theme=tokyonight" alt="GitHub Streak" />
+</p>
+
+<p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=antonysabu1&bg_color=0f0c29&color=00ffcc&line=00ffcc&point=ffffff&area=true&hide_border=true" alt="Contribution Graph" />
+</p>
+
+---
+
 <p align="center">
   <img src="https://komarev.com/ghpvc/?username=antonysabu1&label=Profile%20views&color=0e75b6&style=flat" alt="profile views" />
 </p>
 
+---
+
+<p align="center">
+  <i><b>⚡ Thanks for visiting my profile. Have a great day!</b></i>
+</p>

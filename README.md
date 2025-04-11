@@ -112,5 +112,4 @@ I’m passionate about programming, developing analytical skills, and exploring 
 <p align="center">
   <i><b>⚡ Thanks for visiting my profile. Have a great day!</b></i>
 </p>
-file. Have a great day!</b></i>
-</p>
+

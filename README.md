@@ -91,14 +91,6 @@ I’m passionate about programming, developing analytical skills, and exploring 
 
 ---
 
-### 🌍 Visitor Counter
-
-<p align="center">
-  <img src="https://profile-counter.glitch.me/antonysabu1/count.svg" />
-</p>
-
----
-
 <p align="center">
   <img src="https://raw.githubusercontent.com/antonysabu1/antonysabu1/main/hacker-style.png" width="600px" alt="cyber hacker style image">
 </p>

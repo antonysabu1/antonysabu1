@@ -81,13 +81,6 @@ I’m passionate about programming, developing analytical skills, and exploring 
 ### 📫 Connect With Me
 - 📧 Email: antonysabu2027@cy.sjcetpalai.ac.in
 - 🧑‍💻 GitHub: [@antonysabu1](https://github.com/antonysabu1)
-
----
-
-<p align="center">
-  <img src="https://raw.githubusercontent.com/antonysabu1/antonysabu1/main/hacker-style.png" width="600px" alt="cyber hacker style image">
-</p>
-
 ---
 
 <p align="center">

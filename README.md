@@ -1,8 +1,7 @@
 <h1 align="center">Hi 👋, I'm Antony Sabu</h1>
 
 <p align="center">
-🎓 I'm a <strong>Computer Science Engineering</strong> student specializing in <strong>Cyber Security</strong> at <em>St Joseph's College of Engineering and Technology, Palai</em>.
-<br>
+🎓 I'm a <strong>Computer Science Engineering</strong> student specializing in <strong>Cyber Security</strong> at <em>St Joseph's College of Engineering and Technology, Palai</em>. <br>
 I’m passionate about programming, developing analytical skills, and exploring the depths of cybersecurity.
 </p>
 
@@ -46,17 +45,15 @@ I’m passionate about programming, developing analytical skills, and exploring 
 
 ---
 
-### 🚀 Featured Projects
-- 🔒 [Phishing Detection Tool](https://github.com/antonysabu1/phishing-detector)
-- 🧠 [SJF CPU Scheduler (C)](https://github.com/antonysabu1/sjf-cpu-scheduling)
+### 📌 Pinned Projects
 
----
+<a href="https://github.com/antonysabu1/phishing-detector">
+  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=antonysabu1&repo=phishing-detector&theme=tokyonight" />
+</a>
 
-### 📊 GitHub Stats
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=antonysabu1&show_icons=true&theme=tokyonight&hide_border=true" />
-</p>
+<a href="https://github.com/antonysabu1/sjf-cpu-scheduling">
+  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=antonysabu1&repo=sjf-cpu-scheduling&theme=tokyonight" />
+</a>
 
 ---
 
@@ -64,6 +61,14 @@ I’m passionate about programming, developing analytical skills, and exploring 
 
 <p align="center">
   <img src="https://streak-stats.demolab.com/?user=antonysabu1&theme=tokyonight&hide_border=true" />
+</p>
+
+---
+
+### 📊 GitHub Stats
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=antonysabu1&show_icons=true&theme=tokyonight&hide_border=true" />
 </p>
 
 ---
@@ -82,6 +87,13 @@ I’m passionate about programming, developing analytical skills, and exploring 
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=antonysabu1&layout=compact&theme=tokyonight&hide_border=true" />
 </p>
 
+---
+
+### 🌍 Visitor Counter
+
+<p align="center">
+  <img src="https://profile-counter.glitch.me/antonysabu1/count.svg" />
+</p>
 
 ---
 
@@ -93,12 +105,6 @@ I’m passionate about programming, developing analytical skills, and exploring 
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/antonysabu1/antonysabu1/main/hacker-style.png" width="600px" alt="cyber hacker style image">
-</p>
-
----
-
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=antonysabu1&label=Profile%20views&color=0e75b6&style=flat" alt="profile views" />
 </p>
 
 ---

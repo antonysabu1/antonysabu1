@@ -53,13 +53,6 @@ I’m passionate about programming, developing analytical skills, and exploring 
 </p>
 
 ---
-### 📌 Pinned Projects
-
-[![Phishing Detector](https://github-readme-stats.vercel.app/api/pin/?username=antonysabu1&repo=phishing-detector&theme=tokyonight)](https://github.com/antonysabu1/phishing-detector)
-
-[![SJF CPU Scheduling](https://github-readme-stats.vercel.app/api/pin/?username=antonysabu1&repo=sjf-cpu-scheduling&theme=tokyonight)](https://github.com/antonysabu1/sjf-cpu-scheduling)
-
----
 
 ### 📈 GitHub Streak
 

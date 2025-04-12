@@ -1,30 +1,30 @@
 <h1 align="center">Hi 👋, I'm Antony Sabu</h1>
 
 <p align="center">
-🎓 I'm a <strong>Computer Science Engineering</strong> student specializing in <strong>Cyber Security</strong> at <em>St Joseph's College of Engineering and Technology, Palai</em>.
+🎓 A passionate <strong>Computer Science Engineering</strong> student with a focus on <strong>Cyber Security</strong>, currently studying at <em>St Joseph's College of Engineering and Technology, Palai</em>.
 <br>
-I’m passionate about programming, developing analytical skills, and exploring the depths of cybersecurity.
+I’m passionate about developing analytical skills through programming and diving deep into the world of cybersecurity.
 </p>
 
 ---
 
 ### 🔐 Interests & Goals
-- 🔒 Cryptography, Networking, and Ethical Hacking
-- 🛡️ Cybersecurity trends and threat analysis
-- 💡 Goal: To become a skilled cybersecurity expert and contribute meaningfully to the field
+- 🔒 Cryptography, Networking, and Ethical Hacking  
+- 🛡️ Cybersecurity trends and threat analysis  
+- 🎯 Goal: To become a skilled cybersecurity expert and contribute meaningfully to the field  
 
 ---
 
 ### 🧠 Skills & Tools
-- 💻 Programming: **C**, **Python**, **SQL**
-- ⚙️ Tools & Platforms: **Linux**, **Git**, **Kali Linux**
-- 🧠 Concepts: **Cybersecurity**, **System Programming**, **Networking**
+- 💻 Programming: **C**, **Python**, **SQL**  
+- ⚙️ Tools & Platforms: **Linux**, **Git**, **Kali Linux**  
+- 🧠 Concepts: **Cybersecurity**, **System Programming**, **Networking**  
 
 ---
 
 ### 🔭 Currently Learning
-- Secure systems design & network analysis
-- Practical ethical hacking techniques
+- 🧩 Secure systems design & network analysis  
+- 🕵️ Practical ethical hacking techniques  
 
 ---
 
@@ -46,6 +46,14 @@ I’m passionate about programming, developing analytical skills, and exploring 
 
 ---
 
+### 📈 Contribution Graph
+
+<p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=antonysabu1&theme=tokyo-night&hide_border=true" />
+</p>
+
+---
+
 ### 📊 GitHub Stats
 
 <p align="center">
@@ -54,7 +62,7 @@ I’m passionate about programming, developing analytical skills, and exploring 
 
 ---
 
-### 📈 GitHub Streak
+### 🔥 GitHub Streak
 
 <p align="center">
   <img src="https://streak-stats.demolab.com/?user=antonysabu1&theme=tokyonight&hide_border=true" />
@@ -79,8 +87,9 @@ I’m passionate about programming, developing analytical skills, and exploring 
 ---
 
 ### 📫 Connect With Me
-- 📧 Email: antonysabu2027@cy.sjcetpalai.ac.in
+- 📧 Email: antonysabu2027@cy.sjcetpalai.ac.in  
 - 🧑‍💻 GitHub: [@antonysabu1](https://github.com/antonysabu1)
+
 ---
 
 <p align="center">
@@ -92,4 +101,5 @@ I’m passionate about programming, developing analytical skills, and exploring 
 <p align="center">
   <i><b>⚡ Thanks for visiting my profile. Have a great day!</b></i>
 </p>
+
 

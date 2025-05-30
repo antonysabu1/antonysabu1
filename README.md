@@ -1,9 +1,9 @@
 <h1 align="center">Hi 👋, I'm Antony Sabu</h1>
 
 <p align="center">
-🎓 A passionate <strong>Computer Science Engineering</strong> student with a focus on <strong>Cyber Security</strong>, currently studying at <em>St Joseph's College of Engineering and Technology, Palai</em>.
+🎓 A passionate <strong>Computer Science Engineering</strong> student specializing in <strong>Cyber Security</strong>, currently studying at <em>St Joseph's College of Engineering and Technology, Palai</em>.
 <br>
-I’m passionate about developing analytical skills through programming and diving deep into the world of cybersecurity.
+I'm passionate about sharpening my analytical skills through programming and exploring the depths of cybersecurity.
 </p>
 
 ---
@@ -16,19 +16,19 @@ I’m passionate about developing analytical skills through programming and divi
 ---
 
 ### 🧠 Skills & Tools
-- 💻 Programming: **C**, **Python**, **SQL**  
+- 💻 Programming: **C**, **Python**, **Java**, **SQL**  
 - ⚙️ Tools & Platforms: **Linux**, **Git**, **Kali Linux**  
 - 🧠 Concepts: **Cybersecurity**, **System Programming**, **Networking**  
 
 ---
 
 ### 🔭 Currently Learning
-- 🧩 Secure systems design & network analysis  
+- 🧩 Designing secure systems and performing network traffic analysis  
 - 🕵️ Practical ethical hacking techniques  
 
 ---
 
-### 💻 Tech Stack:
+### 💻 Tech Stack
 <p align="center">
   <img src="https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white"/>
   <img src="https://img.shields.io/badge/Java-007396?style=for-the-badge&logo=java&logoColor=white"/>
@@ -43,6 +43,14 @@ I’m passionate about developing analytical skills through programming and divi
   <img src="https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white"/>
   <img src="https://img.shields.io/badge/Canva-00C4CC?style=for-the-badge&logo=canva&logoColor=white"/>
 </p>
+
+---
+
+### 🚀 Featured Projects
+
+- 🔐 [Phishing Detection Tool](https://github.com/antonysabu1/phishing-detector): A Python-based tool that detects phishing URLs using VirusTotal and SafeBrowsing APIs.
+
+- 🕵️ [Network Sniffer](https://github.com/antonysabu1/network-sniffer): A packet capture and analysis script for inspecting real-time traffic on Linux.
 
 ---
 
@@ -89,17 +97,10 @@ I’m passionate about developing analytical skills through programming and divi
 ### 📫 Connect With Me
 - 📧 Email: antonysabu2027@cy.sjcetpalai.ac.in  
 - 🧑‍💻 GitHub: [@antonysabu1](https://github.com/antonysabu1)
+- 💼 LinkedIn: [Your LinkedIn](www.linkedin.com/in/antony-sabu-284688345)
 
 ---
 
 <p align="center">
   <img src="https://komarev.com/ghpvc/?username=antonysabu1&label=Profile%20views&color=0e75b6&style=flat" alt="profile views" />
 </p>
-
----
-
-<p align="center">
-  <i><b>⚡ Thanks for visiting my profile. Have a great day!</b></i>
-</p>
-
-

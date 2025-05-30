@@ -97,7 +97,7 @@ I'm passionate about sharpening my analytical skills through programming and exp
 ### 📫 Connect With Me
 - 📧 Email: antonysabu2027@cy.sjcetpalai.ac.in  
 - 🧑‍💻 GitHub: [@antonysabu1](https://github.com/antonysabu1)
-- 💼 LinkedIn: [Your LinkedIn](www.linkedin.com/in/antony-sabu-284688345)
+- 💼 LinkedIn: [www.linkedin.com/in/antony-sabu-284688345](www.linkedin.com/in/antony-sabu-284688345)
 
 ---
 

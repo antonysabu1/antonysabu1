@@ -48,9 +48,7 @@ I'm passionate about sharpening my analytical skills through programming and exp
 
 ### 🚀 Featured Projects
 
-- 🔐 [Phishing Detection Tool](https://github.com/antonysabu1/phishing-detector): A Python-based tool that detects phishing URLs using VirusTotal and SafeBrowsing APIs.
-
-- 🕵️ [Network Sniffer](https://github.com/antonysabu1/network-sniffer): A packet capture and analysis script for inspecting real-time traffic on Linux.
+- 🔐 [Phishing Detection Tool](https://antonysabu1.github.io/phishing-detection-tool/): A Python-based tool that detects phishing URLs using VirusTotal and SafeBrowsing APIs.
 
 ---
 

@@ -49,7 +49,7 @@ I'm passionate about sharpening my analytical skills through programming and exp
 ### 🚀 Featured Projects
 
 - 🔐 [Phishing Detection Tool](https://github.com/antonysabu1/phishing-detection-tool): A Python-based tool that detects phishing URLs using VirusTotal and SafeBrowsing APIs.
-- 📍[IP Geolocation Finder](): A Flask-based app that fetches and displays IP geolocation details on an interactive Leaflet.js map with search history support.
+- 📍[IP Geolocation Finder](https://github.com/antonysabu1/ip-geolocation-finder): A Flask-based app that fetches and displays IP geolocation details on an interactive Leaflet.js map with search history support.
 
 
 ---

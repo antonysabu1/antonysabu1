@@ -7,7 +7,7 @@ I'm passionate about sharpening my analytical skills through programming and exp
 </p>
 
 ---
-
+A
 ### 🔐 Interests & Goals
 - 🔒 Cryptography, Networking, and Ethical Hacking  
 - 🛡️ Cybersecurity trends and threat analysis  

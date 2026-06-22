@@ -103,24 +103,28 @@
 ## 🚀 &nbsp;Featured Projects
 
 <!-- PROJECTS:START -->
-### 🎣 [Phishing Detection Tool](https://github.com/antonysabu1/phishing-detection-tool)
-> Phishing links are hard to spot — this Python CLI catches them in real-time using **VirusTotal** & **Google Safe Browsing** APIs.
+### 🔐 [phishing-detection-tool](https://github.com/antonysabu1/phishing-detection-tool)
+> A Python-based security tool that detects phishing URLs using multiple techniques including pattern matching, homograph detection, URL expansion, and integration with VirusTotal and Google Safe Browsing APIs. Provides accurate threat analysis and flags suspicious links effectively.
 
-`Python` `VirusTotal API` `Safe Browsing API` `Security`
+`Python`
+
+![Stars](https://img.shields.io/github/stars/antonysabu1/phishing-detection-tool?style=flat-square&color=2e5d8e) ![Forks](https://img.shields.io/github/forks/antonysabu1/phishing-detection-tool?style=flat-square&color=4a86c8)
+
+---
+### 🌐 [ip-geolocation-finder](https://github.com/antonysabu1/ip-geolocation-finder)
+> A Flask-based web application that fetches and visualizes the geolocation of any IP address. Displays city, country, coordinates, and an interactive Leaflet.js map — with search history and a sleek dark UI.
+
+`HTML`
+
+![Stars](https://img.shields.io/github/stars/antonysabu1/ip-geolocation-finder?style=flat-square&color=2e5d8e) ![Forks](https://img.shields.io/github/forks/antonysabu1/ip-geolocation-finder?style=flat-square&color=4a86c8)
 
 ---
 
-### 🛡️ [Login Guard](https://github.com/antonysabu1/login-guard)
-> Brute-force SSH attacks happen constantly. Login Guard monitors `/var/log/auth.log`, enriches failed attempts with **GeoIP data**, fires alerts via **Telegram / Email / SMS**, and auto-blocks malicious IPs via `ufw` / `iptables`. Runs as a hardened **systemd** service.
+### 🗂️ More Projects
 
-`Python` `Linux` `systemd` `GeoIP` `Telegram API` `iptables` `Brute-Force Detection`
-
----
-
-### 📍 [IP Geolocation Finder](https://github.com/antonysabu1/ip-geolocation-finder)
-> Flask web app that plots IP geolocation data on an interactive **Leaflet.js** map with full search history.
-
-`Python` `Flask` `Leaflet.js` `REST API` `Geolocation`
+- 🚀 [antonysabu1](https://github.com/antonysabu1/antonysabu1) — Config files for my GitHub profile.
+- 📡 [reverse-shell-detector-](https://github.com/antonysabu1/reverse-shell-detector-) — An isolated lab environment for studying reverse shell network patterns, detection techniques, and evasion strategies through controlled simulations and live traffic analysis.
+- 📡 [port-scan-analyzer](https://github.com/antonysabu1/port-scan-analyzer) — A Docker-based detection engineering lab to simulate, analyze, and detect network port scanning and reconnaissance activities.
 <!-- PROJECTS:END -->
 
 ---
@@ -142,7 +146,7 @@
 ## ⚡ &nbsp;Recent Activity
 
 <!-- ACTIVITY:START -->
-<!-- This section is auto-updated by GitHub Actions — do not edit manually -->
+1. 🌿 Created branch `main` in [`antonysabu1/reverse-shell-detector-`](https://github.com/antonysabu1/reverse-shell-detector-) <sub>Jun 15, 2026</sub>
 <!-- ACTIVITY:END -->
 
 ---
@@ -184,5 +188,7 @@
   <br/>
   <i>"Security is not a product, but a process." — Bruce Schneier</i>
   <br/><br/>
-  <sub>⚡ README auto-updates daily via GitHub Actions — last updated: <!-- LAST_UPDATED:START -->never<!-- LAST_UPDATED:END --></sub>
+  <sub>⚡ README auto-updates daily via GitHub Actions — last updated: <!-- LAST_UPDATED:START -->
+2026-06-22 19:37 UTC
+<!-- LAST_UPDATED:END --></sub>
 </div>

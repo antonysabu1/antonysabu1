@@ -104,50 +104,27 @@
 
 <!-- PROJECTS:START -->
 ### 🔐 [phishing-detection-tool](https://github.com/antonysabu1/phishing-detection-tool)
-> A Python-based security tool that detects phishing URLs using multiple techniques including pattern matching, homograph detection, URL expansion, and integration with VirusTotal and Google Safe Browsing.
+> A Python-based security tool that detects phishing URLs using multiple techniques including pattern matching, homograph detection, URL expansion, and integration with VirusTotal and Google Safe Browsing APIs. Provides accurate threat analysis and flags suspicious links effectively.
 
 `Python`
 
-![Stars](https://img.shields.io/github/stars/antonysabu1/phishing-detection-tool?style=flat-square&color=2e5d8e) ![Forks](https://img.shields.io/github/forks/antonysabu1/phishing-detection-tool?style=flat-square&color=2e5d8e)
+![Stars](https://img.shields.io/github/stars/antonysabu1/phishing-detection-tool?style=flat-square&color=2e5d8e) ![Forks](https://img.shields.io/github/forks/antonysabu1/phishing-detection-tool?style=flat-square&color=4a86c8)
 
 ---
 ### 🌐 [ip-geolocation-finder](https://github.com/antonysabu1/ip-geolocation-finder)
-> A Flask-based web application that fetches and visualizes the geolocation of any IP address. Displays city, country, coordinates, and an interactive Leaflet.js map with search history and a sleek dark UI.
+> A Flask-based web application that fetches and visualizes the geolocation of any IP address. Displays city, country, coordinates, and an interactive Leaflet.js map — with search history and a sleek dark UI.
 
-`HTML` `Python`
+`HTML`
 
-![Stars](https://img.shields.io/github/stars/antonysabu1/ip-geolocation-finder?style=flat-square&color=2e5d8e) ![Forks](https://img.shields.io/github/forks/antonysabu1/ip-geolocation-finder?style=flat-square&color=2e5d8e)
-
----
-### 📡 [reverse-shell-detector-](https://github.com/antonysabu1/reverse-shell-detector-)
-> An isolated lab environment for studying reverse shell network patterns, detection techniques, and evasion strategies through controlled simulations and live traffic analysis.
-
-`Python`
-
-![Stars](https://img.shields.io/github/stars/antonysabu1/reverse-shell-detector-?style=flat-square&color=2e5d8e) ![Forks](https://img.shields.io/github/forks/antonysabu1/reverse-shell-detector-?style=flat-square&color=2e5d8e)
-
----
-### 🔍 [port-scan-analyzer](https://github.com/antonysabu1/port-scan-analyzer)
-> A Docker-based detection engineering lab to simulate, analyze, and detect network port scanning and reconnaissance activities.
-
-`Python`
-
-![Stars](https://img.shields.io/github/stars/antonysabu1/port-scan-analyzer?style=flat-square&color=2e5d8e) ![Forks](https://img.shields.io/github/forks/antonysabu1/port-scan-analyzer?style=flat-square&color=2e5d8e)
-
----
-### 🔒 [ssh-attack-monitoring-using-splunk](https://github.com/antonysabu1/ssh-attack-monitoring-using-splunk)
-> A SIEM-based intrusion detection system that monitors SSH authentication logs, detects brute force attacks, and visualizes threats using Splunk dashboards and automated alerts.
-
-`Shell`
-
-![Stars](https://img.shields.io/github/stars/antonysabu1/ssh-attack-monitoring-using-splunk?style=flat-square&color=2e5d8e) ![Forks](https://img.shields.io/github/forks/antonysabu1/ssh-attack-monitoring-using-splunk?style=flat-square&color=2e5d8e)
+![Stars](https://img.shields.io/github/stars/antonysabu1/ip-geolocation-finder?style=flat-square&color=2e5d8e) ![Forks](https://img.shields.io/github/forks/antonysabu1/ip-geolocation-finder?style=flat-square&color=4a86c8)
 
 ---
 
 ### 🗂️ More Projects
 
 - 🚀 [antonysabu1](https://github.com/antonysabu1/antonysabu1) — Config files for my GitHub profile.
-- 🔀 [Relayboy](https://github.com/antonysabu1/Relayboy) — Forked from RobertThomasKariankal/Relayboy.
+- 📡 [reverse-shell-detector-](https://github.com/antonysabu1/reverse-shell-detector-) — An isolated lab environment for studying reverse shell network patterns, detection techniques, and evasion strategies through controlled simulations and live traffic analysis.
+- 📡 [port-scan-analyzer](https://github.com/antonysabu1/port-scan-analyzer) — A Docker-based detection engineering lab to simulate, analyze, and detect network port scanning and reconnaissance activities.
 <!-- PROJECTS:END -->
 
 ---
@@ -212,6 +189,6 @@
   <i>"Security is not a product, but a process." — Bruce Schneier</i>
   <br/><br/>
   <sub>⚡ README auto-updates daily via GitHub Actions — last updated: <!-- LAST_UPDATED:START -->
-2026-06-22 19:37 UTC
+2026-06-22 19:43 UTC
 <!-- LAST_UPDATED:END --></sub>
 </div>

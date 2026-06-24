@@ -171,8 +171,11 @@
 
 <img src="https://streak-stats.demolab.com/?user=antonysabu1&theme=github-dark-blue&hide_border=true&ring=4a86c8&fire=6aaee8&currStreakLabel=4a86c8&background=0d1117" />
 
-</div>
+<br/>
 
+<img src="https://ghchart.rshah.org/2e5d8e/antonysabu1" alt="Antony's contribution chart" />
+
+</div>
 ---
 
 ## 🏆 &nbsp;GitHub Trophies

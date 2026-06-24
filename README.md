@@ -103,28 +103,36 @@
 ## 🚀 &nbsp;Featured Projects
 
 <!-- PROJECTS:START -->
-### 🔐 [phishing-detection-tool](https://github.com/antonysabu1/phishing-detection-tool)
-> A Python-based security tool that detects phishing URLs using multiple techniques including pattern matching, homograph detection, URL expansion, and integration with VirusTotal and Google Safe Browsing APIs. Provides accurate threat analysis and flags suspicious links effectively.
+### 🛡️ [Aegis](https://github.com/antonysabu1/Aegis)
+> Smart defense against online harm — a JavaScript-powered tool that protects users from malicious content in real time.
 
-`Python`
+`JavaScript` `Security` `Web`
 
-![Stars](https://img.shields.io/github/stars/antonysabu1/phishing-detection-tool?style=flat-square&color=2e5d8e) ![Forks](https://img.shields.io/github/forks/antonysabu1/phishing-detection-tool?style=flat-square&color=4a86c8)
+![Stars](https://img.shields.io/github/stars/antonysabu1/Aegis?style=flat-square&color=2e5d8e) ![Forks](https://img.shields.io/github/forks/antonysabu1/Aegis?style=flat-square&color=4a86c8)
 
 ---
-### 🌐 [ip-geolocation-finder](https://github.com/antonysabu1/ip-geolocation-finder)
-> A Flask-based web application that fetches and visualizes the geolocation of any IP address. Displays city, country, coordinates, and an interactive Leaflet.js map — with search history and a sleek dark UI.
+### 🔀 [Relayboy](https://github.com/antonysabu1/Relayboy)
+> A TypeScript project focused on relay-based networking and communication — exploring how data moves between systems.
 
-`HTML`
+`TypeScript` `Networking`
 
-![Stars](https://img.shields.io/github/stars/antonysabu1/ip-geolocation-finder?style=flat-square&color=2e5d8e) ![Forks](https://img.shields.io/github/forks/antonysabu1/ip-geolocation-finder?style=flat-square&color=4a86c8)
+![Stars](https://img.shields.io/github/stars/antonysabu1/Relayboy?style=flat-square&color=2e5d8e) ![Forks](https://img.shields.io/github/forks/antonysabu1/Relayboy?style=flat-square&color=4a86c8)
+
+---
+### 🖥️ [SSH Attack Monitoring using Splunk](https://github.com/antonysabu1/ssh-attack-monitoring-using-splunk)
+> A SIEM-based intrusion detection system that monitors SSH authentication logs, detects brute force attacks, and visualizes threats using Splunk dashboards and automated alerts.
+
+`Shell` `Splunk` `SIEM` `Intrusion Detection` `SSH`
+
+![Stars](https://img.shields.io/github/stars/antonysabu1/ssh-attack-monitoring-using-splunk?style=flat-square&color=2e5d8e) ![Forks](https://img.shields.io/github/forks/antonysabu1/ssh-attack-monitoring-using-splunk?style=flat-square&color=4a86c8)
 
 ---
 
 ### 🗂️ More Projects
 
-- 🚀 [antonysabu1](https://github.com/antonysabu1/antonysabu1) — Config files for my GitHub profile.
-- 📡 [reverse-shell-detector-](https://github.com/antonysabu1/reverse-shell-detector-) — An isolated lab environment for studying reverse shell network patterns, detection techniques, and evasion strategies through controlled simulations and live traffic analysis.
-- 📡 [port-scan-analyzer](https://github.com/antonysabu1/port-scan-analyzer) — A Docker-based detection engineering lab to simulate, analyze, and detect network port scanning and reconnaissance activities.
+- 📡 [reverse-shell-detector](https://github.com/antonysabu1/reverse-shell-detector-) — Isolated lab for studying reverse shell network patterns, detection techniques, and evasion strategies.
+- 📡 [port-scan-analyzer](https://github.com/antonysabu1/port-scan-analyzer) — Docker-based detection engineering lab to simulate and detect network port scanning and reconnaissance.
+- 🔐 [phishing-detection-tool](https://github.com/antonysabu1/phishing-detection-tool) — CLI tool using VirusTotal & Google Safe Browsing APIs to detect phishing URLs in real time.
 <!-- PROJECTS:END -->
 
 ---
@@ -188,7 +196,5 @@
   <br/>
   <i>"Security is not a product, but a process." — Bruce Schneier</i>
   <br/><br/>
-  <sub>⚡ README auto-updates daily via GitHub Actions — last updated: <!-- LAST_UPDATED:START -->
-2026-06-24 08:54 UTC
-<!-- LAST_UPDATED:END --></sub>
+  <sub>⚡ README auto-updates daily via GitHub Actions — last updated: <!-- LAST_UPDATED:START -->2026-06-23 09:23 UTC<!-- LAST_UPDATED:END --></sub>
 </div>

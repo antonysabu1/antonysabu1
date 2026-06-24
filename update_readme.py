@@ -8,12 +8,6 @@ Sections updated:
   - <!-- PROJECTS:START --> ... <!-- PROJECTS:END -->
   - <!-- ACTIVITY:START --> ... <!-- ACTIVITY:END -->
   - <!-- LAST_UPDATED:START --> ... <!-- LAST_UPDATED:END -->
-
-Usage (local):
-  GITHUB_TOKEN=your_token python update_readme.py
-
-Usage (GitHub Actions):
-  The workflow passes GITHUB_TOKEN automatically.
 """
 
 import os
@@ -28,17 +22,13 @@ from datetime import datetime, timezone
 GITHUB_USERNAME = "antonysabu1"
 README_PATH = "README.md"
 
-# Repos to always pin at the top regardless of star count (use exact repo names)
 PINNED_REPOS = [
-    "phishing-detection-tool",
-    "login-guard",
-    "ip-geolocation-finder",
+    "Aegis",
+    "Relayboy",
+    "ssh-attack-monitoring-using-splunk",
 ]
 
-# Max public repos to show after the pinned ones
 MAX_EXTRA_REPOS = 3
-
-# Max recent activity events to show
 MAX_ACTIVITY = 7
 
 # ── helpers ───────────────────────────────────────────────────────────────────
@@ -47,7 +37,6 @@ TOKEN = os.environ.get("GITHUB_TOKEN", "")
 
 
 def gh_get(path: str) -> list | dict:
-    """Call the GitHub REST API and return parsed JSON."""
     url = f"https://api.github.com{path}"
     req = urllib.request.Request(url)
     req.add_header("Accept", "application/vnd.github+json")
@@ -59,7 +48,6 @@ def gh_get(path: str) -> list | dict:
 
 
 def replace_section(content: str, marker: str, new_body: str) -> str:
-    """Replace text between <!-- MARKER:START --> and <!-- MARKER:END -->."""
     pattern = rf"(<!-- {marker}:START -->).*?(<!-- {marker}:END -->)"
     replacement = rf"\g<1>\n{new_body}\n\g<2>"
     return re.sub(pattern, replacement, content, flags=re.DOTALL)
@@ -72,7 +60,8 @@ TOPIC_EMOJI = {
     "web": "🌐", "phishing": "🎣", "malware": "🦠", "python": "🐍",
     "flask": "⚗️", "linux": "🐧", "api": "🔌", "ctf": "🏴",
     "geolocation": "📍", "automation": "⚙️", "machine-learning": "🤖",
-    "cli": "💻", "monitoring": "👁️", "detection": "🛡️",
+    "cli": "💻", "monitoring": "👁️", "detection": "🛡️", "splunk": "🖥️",
+    "siem": "🖥️", "ssh": "🔒", "relay": "🔀", "defense": "🛡️",
 }
 
 DEFAULT_EMOJI = "🚀"
@@ -145,27 +134,24 @@ def format_event(event: dict) -> str | None:
         url = payload.get("release", {}).get("html_url", repo_url)
         return f"🚢 Released [`{tag}`]({url}) in `{repo_name}`"
 
-    return None  # skip unknown event types
+    return None
 
 
 # ── build sections ────────────────────────────────────────────────────────────
 
 def build_projects_section() -> str:
     repos_raw = gh_get(f"/users/{GITHUB_USERNAME}/repos?per_page=100&sort=updated")
-    # Index by name
     by_name = {r["name"]: r for r in repos_raw}
 
     lines = []
-
-    # 1. Pinned repos first (in declared order)
     shown = set()
+
     for name in PINNED_REPOS:
         repo = by_name.get(name)
         if repo:
             lines.append(format_repo(repo))
             shown.add(name)
 
-    # 2. Top remaining public repos by stars, up to MAX_EXTRA_REPOS
     extras = sorted(
         [r for r in repos_raw if r["name"] not in shown and not r.get("fork") and not r.get("private")],
         key=lambda r: r.get("stargazers_count", 0),
@@ -184,8 +170,6 @@ def format_repo(repo: dict) -> str:
     name = repo.get("name", "")
     desc = repo.get("description") or "No description provided."
     url = repo.get("html_url", f"https://github.com/{GITHUB_USERNAME}/{name}")
-    stars = repo.get("stargazers_count", 0)
-    forks = repo.get("forks_count", 0)
     language = repo.get("language") or ""
     topics = repo.get("topics") or []
     emoji = repo_emoji(repo)
@@ -199,9 +183,10 @@ def format_repo(repo: dict) -> str:
     ]
     if tags:
         lines.append(" ".join(tags))
-    if stars or forks:
-        lines.append(f"\n![Stars](https://img.shields.io/github/stars/{GITHUB_USERNAME}/{name}?style=flat-square&color=2e5d8e) "
-                     f"![Forks](https://img.shields.io/github/forks/{GITHUB_USERNAME}/{name}?style=flat-square&color=4a86c8)")
+    lines.append(
+        f"\n![Stars](https://img.shields.io/github/stars/{GITHUB_USERNAME}/{name}?style=flat-square&color=2e5d8e) "
+        f"![Forks](https://img.shields.io/github/forks/{GITHUB_USERNAME}/{name}?style=flat-square&color=4a86c8)"
+    )
     lines.append("\n---")
     return "\n".join(lines)
 
@@ -229,7 +214,6 @@ def build_activity_section() -> str:
             break
         formatted = format_event(event)
         if formatted:
-            # Format the timestamp
             ts = event.get("created_at", "")
             try:
                 dt = datetime.strptime(ts, "%Y-%m-%dT%H:%M:%SZ").replace(tzinfo=timezone.utc)
@@ -253,17 +237,14 @@ def main():
     with open(README_PATH, "r", encoding="utf-8") as f:
         content = f.read()
 
-    # Projects section
     print("  → Fetching repos...")
     projects_md = build_projects_section()
     content = replace_section(content, "PROJECTS", projects_md)
 
-    # Activity section
     print("  → Fetching recent activity...")
     activity_md = build_activity_section()
     content = replace_section(content, "ACTIVITY", activity_md)
 
-    # Timestamp
     now = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC")
     content = replace_section(content, "LAST_UPDATED", now)
 

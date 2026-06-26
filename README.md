@@ -104,25 +104,25 @@
 
 <!-- PROJECTS:START -->
 ### 🛡️ [Aegis](https://github.com/antonysabu1/Aegis)
-> Smart defense against online harm 
+> Smart defense against online harm — a JavaScript-powered tool that protects users from malicious content in real time.
 
-`JavaScript`
+`JavaScript` `Security` `Web`
 
 ![Stars](https://img.shields.io/github/stars/antonysabu1/Aegis?style=flat-square&color=2e5d8e) ![Forks](https://img.shields.io/github/forks/antonysabu1/Aegis?style=flat-square&color=4a86c8)
 
 ---
 ### 🔀 [Relayboy](https://github.com/antonysabu1/Relayboy)
-> No description provided.
+> A TypeScript project focused on relay-based networking and communication — exploring how data moves between systems.
 
-`TypeScript`
+`TypeScript` `Networking`
 
 ![Stars](https://img.shields.io/github/stars/antonysabu1/Relayboy?style=flat-square&color=2e5d8e) ![Forks](https://img.shields.io/github/forks/antonysabu1/Relayboy?style=flat-square&color=4a86c8)
 
 ---
-### 👁️ [ssh-attack-monitoring-using-splunk](https://github.com/antonysabu1/ssh-attack-monitoring-using-splunk)
+### 🖥️ [SSH Attack Monitoring using Splunk](https://github.com/antonysabu1/ssh-attack-monitoring-using-splunk)
 > A SIEM-based intrusion detection system that monitors SSH authentication logs, detects brute force attacks, and visualizes threats using Splunk dashboards and automated alerts.
 
-`Shell`
+`Shell` `Splunk` `SIEM` `Intrusion Detection` `SSH`
 
 ![Stars](https://img.shields.io/github/stars/antonysabu1/ssh-attack-monitoring-using-splunk?style=flat-square&color=2e5d8e) ![Forks](https://img.shields.io/github/forks/antonysabu1/ssh-attack-monitoring-using-splunk?style=flat-square&color=4a86c8)
 
@@ -130,9 +130,9 @@
 
 ### 🗂️ More Projects
 
-- 🔐 [phishing-detection-tool](https://github.com/antonysabu1/phishing-detection-tool) — A Python-based security tool that detects phishing URLs using multiple techniques including pattern matching, homograph detection, URL expansion, and integration with VirusTotal and Google Safe Browsing APIs. Provides accurate threat analysis and flags suspicious links effectively. ⭐ 1
-- 🌐 [ip-geolocation-finder](https://github.com/antonysabu1/ip-geolocation-finder) — A Flask-based web application that fetches and visualizes the geolocation of any IP address. Displays city, country, coordinates, and an interactive Leaflet.js map — with search history and a sleek dark UI. ⭐ 1
-- 🚀 [antonysabu1](https://github.com/antonysabu1/antonysabu1) — Config files for my GitHub profile.
+- 🔐 [phishing-detection-tool](https://github.com/antonysabu1/phishing-detection-tool) — CLI tool using VirusTotal & Google Safe Browsing APIs to detect phishing URLs in real time. ⭐ 1
+- 🌐 [ip-geolocation-finder](https://github.com/antonysabu1/ip-geolocation-finder) — Flask web app that plots IP geolocation on an interactive Leaflet.js map with search history. ⭐ 1
+- 📡 [reverse-shell-detector](https://github.com/antonysabu1/reverse-shell-detector-) — Isolated lab for studying reverse shell network patterns, detection, and evasion strategies.
 <!-- PROJECTS:END -->
 
 ---
@@ -173,9 +173,10 @@
 
 <br/>
 
-<img src="https://ghchart.rshah.org/2e5d8e/antonysabu1" alt="Antony's contribution chart" />
+<img src="https://raw.githubusercontent.com/antonysabu1/antonysabu1/output/github-snake-dark.svg" alt="snake animation" />
 
 </div>
+
 ---
 
 ## 🏆 &nbsp;GitHub Trophies
@@ -199,7 +200,5 @@
   <br/>
   <i>"Security is not a product, but a process." — Bruce Schneier</i>
   <br/><br/>
-  <sub>⚡ README auto-updates daily via GitHub Actions — last updated: <!-- LAST_UPDATED:START -->
-2026-06-25 08:49 UTC
-<!-- LAST_UPDATED:END --></sub>
+  <sub>⚡ README auto-updates daily via GitHub Actions — last updated: <!-- LAST_UPDATED:START -->2026-06-24 15:06 UTC<!-- LAST_UPDATED:END --></sub>
 </div>

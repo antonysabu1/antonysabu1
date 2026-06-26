@@ -72,15 +72,6 @@
 
 <img src="https://capsule-render.vercel.app/api?type=rect&color=0:0d1117,100:1a3a5c&height=2" />
 
-## 🌍 &nbsp;Visitor Count
-
-<div align="center">
-  <img src="https://profile-counter.glitch.me/antonysabu1/count.svg" alt="visitor count" />
-</div>
-
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:1a3a5c,100:0d1117&height=2" />
-
----
 
 ## 🛠️ &nbsp;Tech Stack
 
@@ -165,24 +156,7 @@
 
 <img src="https://capsule-render.vercel.app/api?type=rect&color=0:0d1117,100:1a3a5c&height=2" />
 
-## 🏴 &nbsp;Platform Badges
 
-<div align="center">
-
-<a href="https://tryhackme.com/p/antonysabu1">
-  <img src="https://tryhackme-badges.s3.amazonaws.com/antonysabu1.png" alt="TryHackMe Badge" height="80"/>
-</a>
-
-<br/><br/>
-
-[![TryHackMe](https://img.shields.io/badge/TryHackMe-antonysabu1-212C42?style=for-the-badge&logo=tryhackme&logoColor=white)](https://tryhackme.com/p/antonysabu1)
-[![HackTheBox](https://img.shields.io/badge/HackTheBox-Profile-9fef00?style=for-the-badge&logo=hackthebox&logoColor=black)](https://app.hackthebox.com)
-
-</div>
-
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:1a3a5c,100:0d1117&height=2" />
-
----
 
 ## 🚀 &nbsp;Featured Projects
 

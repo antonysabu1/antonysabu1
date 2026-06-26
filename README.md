@@ -1,8 +1,12 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:1a3a5c,100:2e5d8e&height=200&section=header&text=Antony%20Sabu&fontSize=52&fontColor=ffffff&fontAlignY=38&desc=Cybersecurity%20Enthusiast&fontAlign=50" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:1a3a5c,100:2e5d8e&height=220&section=header&text=Antony%20Sabu&fontSize=52&fontColor=ffffff&fontAlignY=38&desc=Cybersecurity%20Enthusiast&descAlignY=58&descColor=7ab3e0&animation=fadeIn" />
 
 <br/>
+
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=1000&color=4A86C8&center=true&vCenter=true&width=600&lines=Cybersecurity+Engineering+Student+%F0%9F%94%90;Ethical+Hacker+%7C+Cryptography+%7C+Networking;Building+Secure+Systems%2C+One+Line+at+a+Time;CTF+Player+%7C+TryHackMe+Enthusiast+%F0%9F%8F%B4;Threat+Detection+%26+Active+Defense+%F0%9F%9B%A1%EF%B8%8F" alt="Typing SVG" />
+
+<br/><br/>
 
 <a href="mailto:antonysabu2027@cy.sjcetpalai.ac.in">
   <img src="https://img.shields.io/badge/Email-0d1117?style=for-the-badge&logo=gmail&logoColor=4a86c8" />
@@ -13,8 +17,11 @@
 <a href="https://github.com/antonysabu1">
   <img src="https://img.shields.io/badge/GitHub-0d1117?style=for-the-badge&logo=github&logoColor=4a86c8" />
 </a>
-<a href="https://tryhackme.com">
+<a href="https://tryhackme.com/p/antonysabu1">
   <img src="https://img.shields.io/badge/TryHackMe-0d1117?style=for-the-badge&logo=tryhackme&logoColor=4a86c8" />
+</a>
+<a href="https://app.hackthebox.com">
+  <img src="https://img.shields.io/badge/HackTheBox-0d1117?style=for-the-badge&logo=hackthebox&logoColor=9fef00" />
 </a>
 
 <br/><br/>
@@ -23,6 +30,28 @@
 <img src="https://img.shields.io/github/followers/antonysabu1?label=Followers&style=flat-square&color=2e5d8e" />
 
 </div>
+
+---
+
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:0d1117,100:1a3a5c&height=2&section=header" />
+
+## 🚧 &nbsp;Currently Working On
+
+<div align="center">
+
+```
+╔══════════════════════════════════════════════════════════╗
+║  🔨 Active Project: Aegis — Smart Defense Against        ║
+║     Online Harm | JavaScript + Security APIs             ║
+║                                                          ║
+║  📚 Learning: Post-Quantum Cryptography (Kyber KEM)      ║
+║  🏴 Practicing: TryHackMe Red Team Pathways              ║
+╚══════════════════════════════════════════════════════════╝
+```
+
+</div>
+
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:1a3a5c,100:0d1117&height=2&section=footer" />
 
 ---
 
@@ -38,6 +67,18 @@
 - 🎯 &nbsp;Goal: Skilled cybersecurity professional contributing to digital safety
 
 <br clear="right"/>
+
+---
+
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:0d1117,100:1a3a5c&height=2" />
+
+## 🌍 &nbsp;Visitor Count
+
+<div align="center">
+  <img src="https://profile-counter.glitch.me/antonysabu1/count.svg" alt="visitor count" />
+</div>
+
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:1a3a5c,100:0d1117&height=2" />
 
 ---
 
@@ -87,6 +128,28 @@
 
 ---
 
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:0d1117,100:1a3a5c&height=2" />
+
+## 📊 &nbsp;Skills Proficiency
+
+<div align="center">
+
+| Skill | Proficiency |
+|:---|:---|
+| Python | `████████████████░░░░` 80% |
+| Network Security | `███████████████░░░░░` 75% |
+| Linux / Bash | `███████████████░░░░░` 75% |
+| Cryptography | `████████████░░░░░░░░` 60% |
+| Web Security | `███████████░░░░░░░░░` 55% |
+| Penetration Testing | `█████████░░░░░░░░░░░` 45% |
+| JavaScript / TypeScript | `████████░░░░░░░░░░░░` 40% |
+
+</div>
+
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:1a3a5c,100:0d1117&height=2" />
+
+---
+
 ## 🔐 &nbsp;Cybersecurity Knowledge
 
 | Domain | Tools & Concepts |
@@ -100,29 +163,50 @@
 
 ---
 
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:0d1117,100:1a3a5c&height=2" />
+
+## 🏴 &nbsp;Platform Badges
+
+<div align="center">
+
+<a href="https://tryhackme.com/p/antonysabu1">
+  <img src="https://tryhackme-badges.s3.amazonaws.com/antonysabu1.png" alt="TryHackMe Badge" height="80"/>
+</a>
+
+<br/><br/>
+
+[![TryHackMe](https://img.shields.io/badge/TryHackMe-antonysabu1-212C42?style=for-the-badge&logo=tryhackme&logoColor=white)](https://tryhackme.com/p/antonysabu1)
+[![HackTheBox](https://img.shields.io/badge/HackTheBox-Profile-9fef00?style=for-the-badge&logo=hackthebox&logoColor=black)](https://app.hackthebox.com)
+
+</div>
+
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:1a3a5c,100:0d1117&height=2" />
+
+---
+
 ## 🚀 &nbsp;Featured Projects
 
 <!-- PROJECTS:START -->
 ### 🛡️ [Aegis](https://github.com/antonysabu1/Aegis)
-> Smart defense against online harm 
+> Smart defense against online harm — a JavaScript-powered tool that protects users from malicious content in real time.
 
-`JavaScript`
+`JavaScript` `Security` `Web`
 
 ![Stars](https://img.shields.io/github/stars/antonysabu1/Aegis?style=flat-square&color=2e5d8e) ![Forks](https://img.shields.io/github/forks/antonysabu1/Aegis?style=flat-square&color=4a86c8)
 
 ---
 ### 🔀 [Relayboy](https://github.com/antonysabu1/Relayboy)
-> No description provided.
+> A TypeScript project focused on relay-based networking and communication — exploring how data moves between systems.
 
-`TypeScript`
+`TypeScript` `Networking`
 
 ![Stars](https://img.shields.io/github/stars/antonysabu1/Relayboy?style=flat-square&color=2e5d8e) ![Forks](https://img.shields.io/github/forks/antonysabu1/Relayboy?style=flat-square&color=4a86c8)
 
 ---
-### 👁️ [ssh-attack-monitoring-using-splunk](https://github.com/antonysabu1/ssh-attack-monitoring-using-splunk)
+### 🖥️ [SSH Attack Monitoring using Splunk](https://github.com/antonysabu1/ssh-attack-monitoring-using-splunk)
 > A SIEM-based intrusion detection system that monitors SSH authentication logs, detects brute force attacks, and visualizes threats using Splunk dashboards and automated alerts.
 
-`Shell`
+`Shell` `Splunk` `SIEM` `Intrusion Detection` `SSH`
 
 ![Stars](https://img.shields.io/github/stars/antonysabu1/ssh-attack-monitoring-using-splunk?style=flat-square&color=2e5d8e) ![Forks](https://img.shields.io/github/forks/antonysabu1/ssh-attack-monitoring-using-splunk?style=flat-square&color=4a86c8)
 
@@ -130,12 +214,14 @@
 
 ### 🗂️ More Projects
 
-- 🔐 [phishing-detection-tool](https://github.com/antonysabu1/phishing-detection-tool) — A Python-based security tool that detects phishing URLs using multiple techniques including pattern matching, homograph detection, URL expansion, and integration with VirusTotal and Google Safe Browsing APIs. Provides accurate threat analysis and flags suspicious links effectively. ⭐ 1
-- 🌐 [ip-geolocation-finder](https://github.com/antonysabu1/ip-geolocation-finder) — A Flask-based web application that fetches and visualizes the geolocation of any IP address. Displays city, country, coordinates, and an interactive Leaflet.js map — with search history and a sleek dark UI. ⭐ 1
-- 🚀 [antonysabu1](https://github.com/antonysabu1/antonysabu1) — Config files for my GitHub profile.
+- 🔐 [phishing-detection-tool](https://github.com/antonysabu1/phishing-detection-tool) — CLI tool using VirusTotal & Google Safe Browsing APIs to detect phishing URLs in real time. ⭐ 1
+- 🌐 [ip-geolocation-finder](https://github.com/antonysabu1/ip-geolocation-finder) — Flask web app that plots IP geolocation on an interactive Leaflet.js map with search history. ⭐ 1
+- 📡 [reverse-shell-detector](https://github.com/antonysabu1/reverse-shell-detector-) — Isolated lab for studying reverse shell network patterns, detection, and evasion strategies.
 <!-- PROJECTS:END -->
 
 ---
+
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:0d1117,100:1a3a5c&height=2" />
 
 ## 📈 &nbsp;Learning Roadmap
 
@@ -149,6 +235,8 @@
 ⬜  CEH / CompTIA Security+ certification
 ```
 
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:1a3a5c,100:0d1117&height=2" />
+
 ---
 
 ## ⚡ &nbsp;Recent Activity
@@ -156,6 +244,10 @@
 <!-- ACTIVITY:START -->
 1. 🌿 Created branch `main` in [`antonysabu1/reverse-shell-detector-`](https://github.com/antonysabu1/reverse-shell-detector-) <sub>Jun 15, 2026</sub>
 <!-- ACTIVITY:END -->
+
+---
+
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:0d1117,100:1a3a5c&height=2" />
 
 ---
 
@@ -187,20 +279,32 @@
 
 ---
 
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:0d1117,100:1a3a5c&height=2" />
+
 ## 📈 &nbsp;Contribution Graph
 
 <div align="center">
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=antonysabu1&theme=github-compact&hide_border=true&area=true&color=4a86c8&line=2e5d8e&point=6aaee8&bg_color=0d1117" />
 </div>
 
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:1a3a5c,100:0d1117&height=2" />
+
+---
+
+## 💬 &nbsp;Quote of the Day
+
+<div align="center">
+
+<img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=dark" alt="Random cybersecurity quote" />
+
+</div>
+
 ---
 
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:2e5d8e,100:0d1117&height=100&section=footer" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:2e5d8e,100:0d1117&height=120&section=footer" />
   <br/>
   <i>"Security is not a product, but a process." — Bruce Schneier</i>
   <br/><br/>
-  <sub>⚡ README auto-updates daily via GitHub Actions — last updated: <!-- LAST_UPDATED:START -->
-2026-06-26 07:17 UTC
-<!-- LAST_UPDATED:END --></sub>
+  <sub>⚡ README auto-updates daily via GitHub Actions — last updated: <!-- LAST_UPDATED:START -->2026-06-24 15:06 UTC<!-- LAST_UPDATED:END --></sub>
 </div>

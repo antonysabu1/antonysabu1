@@ -248,12 +248,8 @@
 ## 🏆 &nbsp;GitHub Trophies
 
 <div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=antonysabu1&theme=algolia&no-bg=true&margin-w=8&column=7" />
+  <img src="https://github-trophies.vercel.app/?username=antonysabu1&theme=onestar&no-bg=true&margin-w=8&column=7" />
 </div>
-
----
-
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:0d1117,100:1a3a5c&height=2" />
 
 ## 📈 &nbsp;Contribution Graph
 

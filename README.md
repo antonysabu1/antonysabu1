@@ -190,7 +190,7 @@
 
 - 🔐 [phishing-detection-tool](https://github.com/antonysabu1/phishing-detection-tool) — A Python-based security tool that detects phishing URLs using multiple techniques including pattern matching, homograph detection, URL expansion, and integration with VirusTotal and Google Safe Browsing APIs. Provides accurate threat analysis and flags suspicious links effectively. ⭐ 1
 - 🌐 [ip-geolocation-finder](https://github.com/antonysabu1/ip-geolocation-finder) — A Flask-based web application that fetches and visualizes the geolocation of any IP address. Displays city, country, coordinates, and an interactive Leaflet.js map — with search history and a sleek dark UI. ⭐ 1
-- 📡 [reverse-shell-detector-](https://github.com/antonysabu1/reverse-shell-detector-) — An isolated lab environment for studying reverse shell network patterns, detection techniques, and evasion strategies through controlled simulations and live traffic analysis.
+- 🚀 [antonysabu1](https://github.com/antonysabu1/antonysabu1) — Config files for my GitHub profile.
 <!-- PROJECTS:END -->
 
 ---
@@ -278,6 +278,6 @@
   <i>"Security is not a product, but a process." — Bruce Schneier</i>
   <br/><br/>
   <sub>⚡ README auto-updates daily via GitHub Actions — last updated: <!-- LAST_UPDATED:START -->
-2026-06-28 08:41 UTC
+2026-06-29 10:24 UTC
 <!-- LAST_UPDATED:END --></sub>
 </div>

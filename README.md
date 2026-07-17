@@ -188,9 +188,9 @@
 
 ### 🗂️ More Projects
 
-- 🔐 [phishing-detection-tool](https://github.com/antonysabu1/phishing-detection-tool) — A Python-based security tool that detects phishing URLs using multiple techniques including pattern matching, homograph detection, URL expansion, and integration with VirusTotal and Google Safe Browsing APIs. Provides accurate threat analysis and flags suspicious links effectively. ⭐ 1
-- 🌐 [ip-geolocation-finder](https://github.com/antonysabu1/ip-geolocation-finder) — A Flask-based web application that fetches and visualizes the geolocation of any IP address. Displays city, country, coordinates, and an interactive Leaflet.js map — with search history and a sleek dark UI. ⭐ 1
-- 🚀 [antonysabu1](https://github.com/antonysabu1/antonysabu1) — Config files for my GitHub profile.
+- 🚀 [aes-gcm-256](https://github.com/antonysabu1/aes-gcm-256) ⭐ 1
+- 📡 [port-scan-analyzer](https://github.com/antonysabu1/port-scan-analyzer) — A Docker-based detection engineering lab to simulate, analyze, and detect network port scanning and reconnaissance activities. ⭐ 1
+- 📡 [reverse-shell-detector-](https://github.com/antonysabu1/reverse-shell-detector-) — An isolated lab environment for studying reverse shell network patterns, detection techniques, and evasion strategies through controlled simulations and live traffic analysis. ⭐ 1
 <!-- PROJECTS:END -->
 
 ---
@@ -216,10 +216,13 @@
 ## ⚡ &nbsp;Recent Activity
 
 <!-- ACTIVITY:START -->
-1. 🌿 Created branch `main` in [`antonysabu1/python`](https://github.com/antonysabu1/python) <sub>Jul 14, 2026</sub>
-2. 🔀 Merged PR [__](https://github.com/gtech-mulearn/mufifa-2026) in `gtech-mulearn/mufifa-2026` <sub>Jun 29, 2026</sub>
-3. 🔀 Opened PR [__](https://github.com/gtech-mulearn/mufifa-2026) in `gtech-mulearn/mufifa-2026` <sub>Jun 29, 2026</sub>
-4. 🍴 Forked [`gtech-mulearn/mufifa-2026`](https://github.com/gtech-mulearn/mufifa-2026) → `antonysabu1/mufifa-2026` <sub>Jun 27, 2026</sub>
+1. ⭐ Starred [`antonysabu1/aes-gcm-256`](https://github.com/antonysabu1/aes-gcm-256) <sub>Jul 16, 2026</sub>
+2. ⭐ Starred [`antonysabu1/ssh-attack-monitoring-using-splunk`](https://github.com/antonysabu1/ssh-attack-monitoring-using-splunk) <sub>Jul 16, 2026</sub>
+3. ⭐ Starred [`antonysabu1/port-scan-analyzer`](https://github.com/antonysabu1/port-scan-analyzer) <sub>Jul 16, 2026</sub>
+4. ⭐ Starred [`antonysabu1/Relayboy`](https://github.com/antonysabu1/Relayboy) <sub>Jul 16, 2026</sub>
+5. ⭐ Starred [`antonysabu1/reverse-shell-detector-`](https://github.com/antonysabu1/reverse-shell-detector-) <sub>Jul 16, 2026</sub>
+6. 🌿 Created branch `main` in [`antonysabu1/python`](https://github.com/antonysabu1/python) <sub>Jul 14, 2026</sub>
+7. 🔀 Merged PR [__](https://github.com/gtech-mulearn/mufifa-2026) in `gtech-mulearn/mufifa-2026` <sub>Jun 29, 2026</sub>
 <!-- ACTIVITY:END -->
 
 ---
@@ -281,6 +284,6 @@
   <i>"Security is not a product, but a process." — Bruce Schneier</i>
   <br/><br/>
   <sub>⚡ README auto-updates daily via GitHub Actions — last updated: <!-- LAST_UPDATED:START -->
-2026-07-16 07:57 UTC
+2026-07-17 07:53 UTC
 <!-- LAST_UPDATED:END --></sub>
 </div>

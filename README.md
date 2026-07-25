@@ -188,9 +188,9 @@
 
 ### 🗂️ More Projects
 
+- 🚀 [portfolio](https://github.com/antonysabu1/portfolio) ⭐ 1
 - 🚀 [aes-gcm-256](https://github.com/antonysabu1/aes-gcm-256) ⭐ 1
 - 📡 [port-scan-analyzer](https://github.com/antonysabu1/port-scan-analyzer) — A Docker-based detection engineering lab to simulate, analyze, and detect network port scanning and reconnaissance activities. ⭐ 1
-- 📡 [reverse-shell-detector-](https://github.com/antonysabu1/reverse-shell-detector-) — An isolated lab environment for studying reverse shell network patterns, detection techniques, and evasion strategies through controlled simulations and live traffic analysis. ⭐ 1
 <!-- PROJECTS:END -->
 
 ---
@@ -216,13 +216,13 @@
 ## ⚡ &nbsp;Recent Activity
 
 <!-- ACTIVITY:START -->
-1. ⭐ Starred [`antnjhn/SILO`](https://github.com/antnjhn/SILO) <sub>Jul 22, 2026</sub>
-2. 🌿 Created branch `main` in [`antonysabu1/portfolio`](https://github.com/antonysabu1/portfolio) <sub>Jul 21, 2026</sub>
-3. ⭐ Starred [`antonysabu1/aes-gcm-256`](https://github.com/antonysabu1/aes-gcm-256) <sub>Jul 16, 2026</sub>
-4. ⭐ Starred [`antonysabu1/ssh-attack-monitoring-using-splunk`](https://github.com/antonysabu1/ssh-attack-monitoring-using-splunk) <sub>Jul 16, 2026</sub>
-5. ⭐ Starred [`antonysabu1/port-scan-analyzer`](https://github.com/antonysabu1/port-scan-analyzer) <sub>Jul 16, 2026</sub>
-6. ⭐ Starred [`antonysabu1/Relayboy`](https://github.com/antonysabu1/Relayboy) <sub>Jul 16, 2026</sub>
-7. ⭐ Starred [`antonysabu1/reverse-shell-detector-`](https://github.com/antonysabu1/reverse-shell-detector-) <sub>Jul 16, 2026</sub>
+1. ⭐ Starred [`Don-Saji/testtest`](https://github.com/Don-Saji/testtest) <sub>Jul 24, 2026</sub>
+2. ⭐ Starred [`antnjhn/SILO`](https://github.com/antnjhn/SILO) <sub>Jul 22, 2026</sub>
+3. 🌿 Created branch `main` in [`antonysabu1/portfolio`](https://github.com/antonysabu1/portfolio) <sub>Jul 21, 2026</sub>
+4. ⭐ Starred [`antonysabu1/aes-gcm-256`](https://github.com/antonysabu1/aes-gcm-256) <sub>Jul 16, 2026</sub>
+5. ⭐ Starred [`antonysabu1/ssh-attack-monitoring-using-splunk`](https://github.com/antonysabu1/ssh-attack-monitoring-using-splunk) <sub>Jul 16, 2026</sub>
+6. ⭐ Starred [`antonysabu1/port-scan-analyzer`](https://github.com/antonysabu1/port-scan-analyzer) <sub>Jul 16, 2026</sub>
+7. ⭐ Starred [`antonysabu1/Relayboy`](https://github.com/antonysabu1/Relayboy) <sub>Jul 16, 2026</sub>
 <!-- ACTIVITY:END -->
 
 ---
@@ -284,6 +284,6 @@
   <i>"Security is not a product, but a process." — Bruce Schneier</i>
   <br/><br/>
   <sub>⚡ README auto-updates daily via GitHub Actions — last updated: <!-- LAST_UPDATED:START -->
-2026-07-24 08:09 UTC
+2026-07-25 07:51 UTC
 <!-- LAST_UPDATED:END --></sub>
 </div>

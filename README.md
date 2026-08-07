@@ -263,6 +263,14 @@
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=antonysabu1&theme=github-compact&hide_border=true&area=true&color=4a86c8&line=2e5d8e&point=6aaee8&bg_color=0d1117" />
 </div>
 
+## 🧊 &nbsp;3D Contribution Calendar
+
+
+<div align="center">
+  <img src="./profile-3d-contrib/profile-night-green.svg" alt="3D contribution graph" width="90%" />
+</div>
+
+
 <img src="https://capsule-render.vercel.app/api?type=rect&color=0:1a3a5c,100:0d1117&height=2" />
 
 ---

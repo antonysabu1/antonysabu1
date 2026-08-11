@@ -188,9 +188,9 @@
 
 ### 🗂️ More Projects
 
-- 🚀 [portfolio](https://github.com/antonysabu1/portfolio) ⭐ 1
-- 🚀 [aes-gcm-256](https://github.com/antonysabu1/aes-gcm-256) ⭐ 1
-- 📡 [port-scan-analyzer](https://github.com/antonysabu1/port-scan-analyzer) — A Docker-based detection engineering lab to simulate, analyze, and detect network port scanning and reconnaissance activities. ⭐ 1
+- 🚀 [aes-gcm-256](https://github.com/antonysabu1/aes-gcm-256) ⭐ 2
+- 📡 [port-scan-analyzer](https://github.com/antonysabu1/port-scan-analyzer) — A Docker-based detection engineering lab to simulate, analyze, and detect network port scanning and reconnaissance activities. ⭐ 2
+- 📡 [reverse-shell-detector-](https://github.com/antonysabu1/reverse-shell-detector-) — An isolated lab environment for studying reverse shell network patterns, detection techniques, and evasion strategies through controlled simulations and live traffic analysis. ⭐ 2
 <!-- PROJECTS:END -->
 
 ---
@@ -292,6 +292,6 @@
   <i>"Security is not a product, but a process." — Bruce Schneier</i>
   <br/><br/>
   <sub>⚡ README auto-updates daily via GitHub Actions — last updated: <!-- LAST_UPDATED:START -->
-2026-08-10 07:12 UTC
+2026-08-11 06:50 UTC
 <!-- LAST_UPDATED:END --></sub>
 </div>

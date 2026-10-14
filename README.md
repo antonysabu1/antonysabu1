@@ -275,6 +275,6 @@
   <i>"Security is not a product, but a process." — Bruce Schneier</i>
   <br/><br/>
   <sub>⚡ README auto-updates daily via GitHub Actions — last updated: <!-- LAST_UPDATED:START -->
-2026-10-13 13:13 UTC
+2026-10-14 10:53 UTC
 <!-- LAST_UPDATED:END --></sub>
 </div>

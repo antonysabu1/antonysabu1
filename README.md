@@ -65,7 +65,7 @@ My part: the SSH/Telnet adapter. See [`honeypot_adapter`](https://github.com/ant
 
 ### 🗂️ More Projects
 
-- 🚀 [honeypot_adapter](https://github.com/antonysabu1/honeypot_adapter) — an adapter for honeypot ⭐ 2
+- 🚀 [honeypot_adapter](https://github.com/antonysabu1/honeypot_adapter) ⭐ 2
 - 🚀 [aes-gcm-256](https://github.com/antonysabu1/aes-gcm-256) ⭐ 2
 - 📡 [port-scan-analyzer](https://github.com/antonysabu1/port-scan-analyzer) — A Docker-based detection engineering lab to simulate, analyze, and detect network port scanning and reconnaissance activities. ⭐ 2
 <!-- PROJECTS:END -->
@@ -103,7 +103,7 @@ My part: the SSH/Telnet adapter. See [`honeypot_adapter`](https://github.com/ant
 
 <!-- ACTIVITY:START -->
 1. 🌿 Created branch `telemetry-contract` in [`antonysabu1/honeypot_adapter`](https://github.com/antonysabu1/honeypot_adapter) <sub>Oct 10, 2026</sub>
-2. 🔀 Merged PR [#2](https://github.com/antonysabu1/honeypot_adapter/pull/2) in `antonysabu1/honeypot_adapter` <sub>Sep 24, 2026</sub>
+2. 🔀 Merged a pull request in [`antonysabu1/honeypot_adapter`](https://github.com/antonysabu1/honeypot_adapter) <sub>Sep 24, 2026</sub>
 <!-- ACTIVITY:END -->
 
 ---
@@ -114,16 +114,12 @@ My part: the SSH/Telnet adapter. See [`honeypot_adapter`](https://github.com/ant
 &nbsp;&nbsp;
 <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=antonysabu1&layout=compact&theme=github_dark&hide_border=true&title_color=4a86c8&bg_color=0d1117" alt="Top languages" />
 
-<br/>
-
-<img src="https://raw.githubusercontent.com/antonysabu1/antonysabu1/output/github-snake-dark.svg" alt="Contribution snake animation" />
-
 <br/><br/>
 
 <i>"Security is not a product, but a process." — Bruce Schneier</i>
 <br/>
 <sub>README updates daily via GitHub Actions. Last updated: <!-- LAST_UPDATED:START -->
-2026-10-18 18:35 UTC
+2026-10-18 10:07 UTC
 <!-- LAST_UPDATED:END --></sub>
 
 </div>

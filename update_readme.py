@@ -1,13 +1,22 @@
 """
 update_readme.py
 ----------------
-Fetches your GitHub repos and recent commits via the GitHub API,
+Fetches your GitHub repos and recent activity via the GitHub API,
 then rewrites the dynamic sections in README.md between HTML comment markers.
 
 Sections updated:
   - <!-- PROJECTS:START --> ... <!-- PROJECTS:END -->
   - <!-- ACTIVITY:START --> ... <!-- ACTIVITY:END -->
   - <!-- LAST_UPDATED:START --> ... <!-- LAST_UPDATED:END -->
+
+Changes from the previous version:
+  - Forks, archived repos and the profile repo itself are never listed.
+  - Repos without a description show no empty "No description" line.
+  - The public events API often omits PR/issue titles, so those lines fall
+    back to the number ("PR #12") instead of printing an empty title.
+  - A failed API call keeps the old section instead of breaking the run.
+  - The timestamp only changes when the rest of the README changed, so the
+    bot no longer commits every single day.
 """
 
 import os
@@ -22,9 +31,9 @@ from datetime import datetime, timezone
 GITHUB_USERNAME = "antonysabu1"
 README_PATH = "README.md"
 
+# Shown first, in this order. Forks and missing repos are skipped automatically.
 PINNED_REPOS = [
     "Aegis",
-    "Relayboy",
     "ssh-attack-monitoring-using-splunk",
 ]
 
@@ -49,8 +58,24 @@ def gh_get(path: str) -> list | dict:
 
 def replace_section(content: str, marker: str, new_body: str) -> str:
     pattern = rf"(<!-- {marker}:START -->).*?(<!-- {marker}:END -->)"
-    replacement = rf"\g<1>\n{new_body}\n\g<2>"
-    return re.sub(pattern, replacement, content, flags=re.DOTALL)
+    # A function replacement avoids backslash and group-reference surprises.
+    return re.sub(
+        pattern,
+        lambda m: f"{m.group(1)}\n{new_body}\n{m.group(2)}",
+        content,
+        flags=re.DOTALL,
+    )
+
+
+def get_section(content: str, marker: str) -> str:
+    m = re.search(rf"<!-- {marker}:START -->\n?(.*?)\n?<!-- {marker}:END -->", content, flags=re.DOTALL)
+    return m.group(1) if m else ""
+
+
+def clean(text: str, limit: int = 72) -> str:
+    """One line, trimmed, with characters that break markdown italics/links removed."""
+    text = (text or "").splitlines()[0] if text else ""
+    return text[:limit].replace("_", " ").replace("`", "'").replace("[", "(").replace("]", ")")
 
 
 # ── emoji heuristics ──────────────────────────────────────────────────────────
@@ -87,13 +112,15 @@ def format_event(event: dict) -> str | None:
     payload = event.get("payload", {})
 
     if etype == "PushEvent":
-        commits = payload.get("commits", [])
-        if not commits:
+        # The events API may leave out the commit list, so fall back to its size.
+        commits = payload.get("commits") or []
+        n = len(commits) or payload.get("distinct_size") or payload.get("size") or 0
+        if not n:
             return None
-        n = len(commits)
-        msg = commits[-1].get("message", "").splitlines()[0][:72]
         label = f"{n} commit{'s' if n > 1 else ''}"
-        return f"🔨 Pushed **{label}** to [`{repo_name}`]({repo_url}) — _{msg}_"
+        msg = clean(commits[-1].get("message", "")) if commits else ""
+        tail = f" · _{msg}_" if msg else ""
+        return f"🔨 Pushed **{label}** to [`{repo_name}`]({repo_url}){tail}"
 
     if etype == "CreateEvent":
         ref_type = payload.get("ref_type", "")
@@ -107,9 +134,13 @@ def format_event(event: dict) -> str | None:
 
     if etype == "IssuesEvent":
         action = payload.get("action", "")
-        title = payload.get("issue", {}).get("title", "")[:72]
-        url = payload.get("issue", {}).get("html_url", repo_url)
-        return f"🐛 {action.capitalize()} issue [_{title}_]({url}) in `{repo_name}`"
+        issue = payload.get("issue", {})
+        number = issue.get("number")
+        title = clean(issue.get("title", ""))
+        url = issue.get("html_url") or (f"{repo_url}/issues/{number}" if number else repo_url)
+        name = f"_{title}_" if title else (f"#{number}" if number else "")
+        return f"🐛 {action.capitalize()} issue [{name}]({url}) in `{repo_name}`" if name else \
+               f"🐛 {action.capitalize()} an issue in [`{repo_name}`]({repo_url})"
 
     if etype == "IssueCommentEvent":
         url = payload.get("comment", {}).get("html_url", repo_url)
@@ -118,9 +149,16 @@ def format_event(event: dict) -> str | None:
     if etype == "PullRequestEvent":
         action = payload.get("action", "")
         pr = payload.get("pull_request", {})
-        title = pr.get("title", "")[:72]
-        url = pr.get("html_url", repo_url)
-        return f"🔀 {action.capitalize()} PR [_{title}_]({url}) in `{repo_name}`"
+        number = pr.get("number") or payload.get("number")
+        title = clean(pr.get("title", ""))
+        url = pr.get("html_url") or (f"{repo_url}/pull/{number}" if number else repo_url)
+        if action == "closed" and pr.get("merged"):
+            action = "merged"
+        label = f"_{title}_" if title else (f"#{number}" if number else "")
+        verb = action.capitalize()
+        if label:
+            return f"🔀 {verb} PR [{label}]({url}) in `{repo_name}`"
+        return f"🔀 {verb} a pull request in [`{repo_name}`]({repo_url})"
 
     if etype == "WatchEvent":
         return f"⭐ Starred [`{repo_name}`]({repo_url})"
@@ -139,8 +177,17 @@ def format_event(event: dict) -> str | None:
 
 # ── build sections ────────────────────────────────────────────────────────────
 
-def build_projects_section() -> str:
-    repos_raw = gh_get(f"/users/{GITHUB_USERNAME}/repos?per_page=100&sort=updated")
+def listable(repo: dict) -> bool:
+    """Skip forks, archived repos, private repos and the profile repo itself."""
+    return not (
+        repo.get("fork")
+        or repo.get("archived")
+        or repo.get("private")
+        or repo.get("name", "").lower() == GITHUB_USERNAME.lower()
+    )
+
+
+def build_projects_section(repos_raw: list) -> str:
     by_name = {r["name"]: r for r in repos_raw}
 
     lines = []
@@ -148,12 +195,12 @@ def build_projects_section() -> str:
 
     for name in PINNED_REPOS:
         repo = by_name.get(name)
-        if repo:
+        if repo and listable(repo):
             lines.append(format_repo(repo))
             shown.add(name)
 
     extras = sorted(
-        [r for r in repos_raw if r["name"] not in shown and not r.get("fork") and not r.get("private")],
+        [r for r in repos_raw if r["name"] not in shown and listable(r)],
         key=lambda r: r.get("stargazers_count", 0),
         reverse=True,
     )[:MAX_EXTRA_REPOS]
@@ -168,7 +215,7 @@ def build_projects_section() -> str:
 
 def format_repo(repo: dict) -> str:
     name = repo.get("name", "")
-    desc = repo.get("description") or "No description provided."
+    desc = (repo.get("description") or "").strip()
     url = repo.get("html_url", f"https://github.com/{GITHUB_USERNAME}/{name}")
     language = repo.get("language") or ""
     topics = repo.get("topics") or []
@@ -176,17 +223,12 @@ def format_repo(repo: dict) -> str:
 
     tags = [f"`{t}`" for t in topics[:6]] if topics else ([f"`{language}`"] if language else [])
 
-    lines = [
-        f"### {emoji} [{name}]({url})",
-        f"> {desc}",
-        "",
-    ]
+    lines = [f"### {emoji} [{name}]({url})"]
+    if desc:
+        lines.append(f"> {desc}")
+    lines.append("")
     if tags:
         lines.append(" ".join(tags))
-    lines.append(
-        f"\n![Stars](https://img.shields.io/github/stars/{GITHUB_USERNAME}/{name}?style=flat-square&color=2e5d8e) "
-        f"![Forks](https://img.shields.io/github/forks/{GITHUB_USERNAME}/{name}?style=flat-square&color=4a86c8)"
-    )
     lines.append("\n---")
     return "\n".join(lines)
 
@@ -202,12 +244,7 @@ def format_repo_compact(repo: dict) -> str:
     return f"- {emoji} [{name}]({url}){desc_part}{star_badge}"
 
 
-def build_activity_section() -> str:
-    try:
-        events = gh_get(f"/users/{GITHUB_USERNAME}/events/public?per_page=30")
-    except urllib.error.HTTPError:
-        return "_Could not fetch recent activity._"
-
+def build_activity_section(events: list) -> str:
     lines = []
     for event in events:
         if len(lines) >= MAX_ACTIVITY:
@@ -235,23 +272,36 @@ def main():
     print(f"Updating README for @{GITHUB_USERNAME}...")
 
     with open(README_PATH, "r", encoding="utf-8") as f:
-        content = f.read()
+        original = f.read()
+    content = original
 
-    print("  → Fetching repos...")
-    projects_md = build_projects_section()
-    content = replace_section(content, "PROJECTS", projects_md)
+    # Each fetch is separate: if one fails, that section keeps its old text.
+    try:
+        print("  → Fetching repos...")
+        repos_raw = gh_get(f"/users/{GITHUB_USERNAME}/repos?per_page=100&sort=updated")
+        content = replace_section(content, "PROJECTS", build_projects_section(repos_raw))
+    except (urllib.error.URLError, TimeoutError, KeyError) as e:
+        print(f"  ! Could not update projects, keeping old section: {e}")
 
-    print("  → Fetching recent activity...")
-    activity_md = build_activity_section()
-    content = replace_section(content, "ACTIVITY", activity_md)
+    try:
+        print("  → Fetching recent activity...")
+        events = gh_get(f"/users/{GITHUB_USERNAME}/events/public?per_page=30")
+        content = replace_section(content, "ACTIVITY", build_activity_section(events))
+    except (urllib.error.URLError, TimeoutError) as e:
+        print(f"  ! Could not update activity, keeping old section: {e}")
 
-    now = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC")
-    content = replace_section(content, "LAST_UPDATED", now)
+    # Only bump the timestamp when something else actually changed.
+    old_ts = get_section(original, "LAST_UPDATED").strip()
+    if content != original or not old_ts:
+        now = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC")
+        content = replace_section(content, "LAST_UPDATED", now)
+        print(f"  ✅ README updated at {now}")
+    else:
+        print("  = No changes, README left as is.")
 
-    with open(README_PATH, "w", encoding="utf-8") as f:
-        f.write(content)
-
-    print(f"  ✅ README updated at {now}")
+    if content != original:
+        with open(README_PATH, "w", encoding="utf-8") as f:
+            f.write(content)
 
 
 if __name__ == "__main__":

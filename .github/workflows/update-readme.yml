@@ -4,24 +4,25 @@ on:
   schedule:
     - cron: "0 6 * * *"
   push:
-    branches:
-      - main
+    branches: [main]
   workflow_dispatch:
+
+concurrency:
+  group: update-readme
+  cancel-in-progress: false
 
 jobs:
   update-readme:
     name: Fetch GitHub data and refresh README
     runs-on: ubuntu-latest
-
+    timeout-minutes: 10
     permissions:
       contents: write
 
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v4
+      - uses: actions/checkout@v4
 
-      - name: Set up Python
-        uses: actions/setup-python@v5
+      - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
 
@@ -34,8 +35,9 @@ jobs:
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git diff --quiet README.md || (
-            git add README.md &&
-            git commit -m "chore: auto-update README [skip ci]" &&
+          if ! git diff --quiet README.md; then
+            git add README.md
+            git commit -m "chore: auto-update README [skip ci]"
+            git pull --rebase origin main
             git push
-          )
+          fi

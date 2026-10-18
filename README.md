@@ -1,180 +1,59 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:1a3a5c,100:2e5d8e&height=220&section=header&text=Antony%20Sabu&fontSize=52&fontColor=ffffff&fontAlignY=38&desc=Cybersecurity%20Enthusiast&descAlignY=58&descColor=7ab3e0&animation=fadeIn" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:1a3a5c,100:2e5d8e&height=200&section=header&text=Antony%20Sabu&fontSize=52&fontColor=ffffff&fontAlignY=38&desc=Cybersecurity%20Engineering%20Student&descAlignY=58&descColor=7ab3e0&animation=fadeIn" alt="Antony Sabu, Cybersecurity Engineering Student" />
 
 <br/>
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=1000&color=4A86C8&center=true&vCenter=true&width=600&lines=Cybersecurity+Engineering+Student+%F0%9F%94%90;Ethical+Hacker+%7C+Cryptography+%7C+Networking;Building+Secure+Systems%2C+One+Line+at+a+Time;CTF+Player+%7C+TryHackMe+Enthusiast+%F0%9F%8F%B4;Threat+Detection+%26+Active+Defense+%F0%9F%9B%A1%EF%B8%8F" alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&duration=3000&pause=1000&color=4A86C8&center=true&vCenter=true&width=640&lines=I+build+tools+that+detect+and+deceive+attackers;Honeypots+%7C+SSH+Monitoring+%7C+Cryptography;Learning+red+team+and+web+app+pentesting" alt="Typing SVG" />
 
 <br/><br/>
 
 <a href="mailto:antonysabu2027@cy.sjcetpalai.ac.in">
-  <img src="https://img.shields.io/badge/Email-0d1117?style=for-the-badge&logo=gmail&logoColor=4a86c8" />
+  <img alt="Email" src="https://img.shields.io/badge/Email-0d1117?style=for-the-badge&logo=gmail&logoColor=4a86c8" />
 </a>
 <a href="https://www.linkedin.com/in/antony-sabu-284688345">
-  <img src="https://img.shields.io/badge/LinkedIn-0d1117?style=for-the-badge&logo=linkedin&logoColor=4a86c8" />
-</a>
-<a href="https://github.com/antonysabu1">
-  <img src="https://img.shields.io/badge/GitHub-0d1117?style=for-the-badge&logo=github&logoColor=4a86c8" />
+  <img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-0d1117?style=for-the-badge&logo=linkedin&logoColor=4a86c8" />
 </a>
 <a href="https://tryhackme.com/p/antonysabu1">
-  <img src="https://img.shields.io/badge/TryHackMe-0d1117?style=for-the-badge&logo=tryhackme&logoColor=4a86c8" />
-</a>
-<a href="https://app.hackthebox.com">
-  <img src="https://img.shields.io/badge/HackTheBox-0d1117?style=for-the-badge&logo=hackthebox&logoColor=9fef00" />
+  <img alt="TryHackMe" src="https://img.shields.io/badge/TryHackMe-0d1117?style=for-the-badge&logo=tryhackme&logoColor=4a86c8" />
 </a>
 
-<br/><br/>
-
-<img src="https://komarev.com/ghpvc/?username=antonysabu1&label=Profile+Views&color=2e5d8e&style=flat-square" />
-<img src="https://img.shields.io/github/followers/antonysabu1?label=Followers&style=flat-square&color=2e5d8e" />
-
 </div>
 
 ---
 
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:0d1117,100:1a3a5c&height=2&section=header" />
+## About
 
-## 🚧 &nbsp;Currently Working On
+CSE (Cyber Security) student at **St. Joseph's College of Engineering and Technology, Palai**. I work on threat detection and active defence, and I am learning cryptography and offensive security alongside it.
 
-<div align="center">
-
-```
-╔══════════════════════════════════════════════════════════╗
-║  🔨 Active Project: Aegis — Smart Defense Against        ║
-║     Online Harm | JavaScript + Security APIs             ║
-║                                                          ║
-║  📚 Learning: Post-Quantum Cryptography (Kyber KEM)      ║
-║  🏴 Practicing: TryHackMe Red Team Pathways              ║
-╚══════════════════════════════════════════════════════════╝
-```
-
-</div>
-
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:1a3a5c,100:0d1117&height=2&section=footer" />
+- Final-year team project: **HYDRA**, an adaptive honeypot (details below)
+- Currently building **Aegis**, a JavaScript project on defence against online harm
+- Currently learning post-quantum cryptography (Kyber KEM) and TryHackMe red team paths
 
 ---
 
-<img align="right" width="360" src="https://github-readme-stats.vercel.app/api?username=antonysabu1&show_icons=true&theme=github_dark&hide_border=true&rank_icon=github&icon_color=4a86c8&title_color=4a86c8&bg_color=0d1117" />
+## Featured: HYDRA
 
-### 👨‍💻 &nbsp;About Me
+**Hyper-adaptive Yielding Decoy with Reinforcement Learning Automated Defence.** A four-person final-year project: a lightweight, explainable honeypot that changes what it shows each attacker session based on the behaviour it observes.
 
-- 🎓 &nbsp;CSE (Cyber Security) @ *St. Joseph's College of Engineering and Technology, Palai*
-- 🔐 &nbsp;Focused on **cryptography**, **ethical hacking** & **network security**
-- 🛡️ &nbsp;Building tools in the **threat detection** & **active defense** space
-- 🔬 &nbsp;Studying **AES-GCM** (symmetric authenticated encryption) and **Kyber** (post-quantum KEM)
-- 🏴 &nbsp;Practising on **TryHackMe** — CTFs & hands-on offensive security labs
-- 🎯 &nbsp;Goal: Skilled cybersecurity professional contributing to digital safety
+- Four layers: Interaction, Observation, Intelligence and Control, plus a read-only authenticated dashboard
+- Protocol adapters for web, FTP, SSH/Telnet and MySQL/PostgreSQL, sharing one event schema
+- Intelligence layer: Decision Tree, Markov Chain and Isolation Forest, with a hand-authored vulnerability graph choosing the response
+- Tested locally against Nmap, Nikto, Hydra and SQLmap
 
-<br clear="right"/>
+**Honest status:** a working prototype trained on synthetic data. It is not deployed against real attackers, and its results do not prove equal performance on real traffic.
 
----
-
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:0d1117,100:1a3a5c&height=2" />
-
-
-## 🛠️ &nbsp;Tech Stack
-
-<table>
-<tr>
-<td valign="top" width="33%">
-
-**Languages**
-
-![Python](https://img.shields.io/badge/Python-0d1117?style=flat-square&logo=python&logoColor=4a86c8)
-![C](https://img.shields.io/badge/C-0d1117?style=flat-square&logo=c&logoColor=4a86c8)
-![Java](https://img.shields.io/badge/Java-0d1117?style=flat-square&logo=openjdk&logoColor=4a86c8)
-![JavaScript](https://img.shields.io/badge/JavaScript-0d1117?style=flat-square&logo=javascript&logoColor=4a86c8)
-![TypeScript](https://img.shields.io/badge/TypeScript-0d1117?style=flat-square&logo=typescript&logoColor=4a86c8)
-![Bash](https://img.shields.io/badge/Bash-0d1117?style=flat-square&logo=gnubash&logoColor=4a86c8)
-![SQL](https://img.shields.io/badge/SQL-0d1117?style=flat-square&logo=postgresql&logoColor=4a86c8)
-
-</td>
-<td valign="top" width="33%">
-
-**Security Tools**
-
-![Kali Linux](https://img.shields.io/badge/Kali_Linux-0d1117?style=flat-square&logo=kalilinux&logoColor=2e5d8e)
-![Metasploit](https://img.shields.io/badge/Metasploit-0d1117?style=flat-square&logo=metasploit&logoColor=2e5d8e)
-![Wireshark](https://img.shields.io/badge/Wireshark-0d1117?style=flat-square&logo=wireshark&logoColor=2e5d8e)
-![Nmap](https://img.shields.io/badge/Nmap-0d1117?style=flat-square&logo=nmap&logoColor=2e5d8e)
-![Burp Suite](https://img.shields.io/badge/Burp_Suite-0d1117?style=flat-square&logo=burpsuite&logoColor=2e5d8e)
-![Nessus](https://img.shields.io/badge/Nessus-0d1117?style=flat-square&logo=tenable&logoColor=2e5d8e)
-
-</td>
-<td valign="top" width="33%">
-
-**Dev & Design**
-
-![Git](https://img.shields.io/badge/Git-0d1117?style=flat-square&logo=git&logoColor=6aaee8)
-![GitHub](https://img.shields.io/badge/GitHub-0d1117?style=flat-square&logo=github&logoColor=6aaee8)
-![Flask](https://img.shields.io/badge/Flask-0d1117?style=flat-square&logo=flask&logoColor=6aaee8)
-![VS Code](https://img.shields.io/badge/VS_Code-0d1117?style=flat-square&logo=visualstudiocode&logoColor=6aaee8)
-![Linux](https://img.shields.io/badge/Linux-0d1117?style=flat-square&logo=linux&logoColor=6aaee8)
-![Figma](https://img.shields.io/badge/Figma-0d1117?style=flat-square&logo=figma&logoColor=6aaee8)
-
-</td>
-</tr>
-</table>
+My part: the SSH/Telnet adapter. See [`honeypot_adapter`](https://github.com/antonysabu1/honeypot_adapter) for the adapter work.
 
 ---
 
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:0d1117,100:1a3a5c&height=2" />
-
-## 📊 &nbsp;Skills Proficiency
-
-<div align="center">
-
-| Skill | Proficiency |
-|:---|:---|
-| Python | `████████████████░░░░` 80% |
-| Network Security | `███████████████░░░░░` 75% |
-| Linux / Bash | `███████████████░░░░░` 75% |
-| Cryptography | `████████████░░░░░░░░` 60% |
-| Web Security | `███████████░░░░░░░░░` 55% |
-| Penetration Testing | `█████████░░░░░░░░░░░` 45% |
-| JavaScript / TypeScript | `████████░░░░░░░░░░░░` 40% |
-
-</div>
-
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:1a3a5c,100:0d1117&height=2" />
-
----
-
-## 🔐 &nbsp;Cybersecurity Knowledge
-
-| Domain | Tools & Concepts |
-|:---|:---|
-| 🕵️ **Reconnaissance** | Nmap, Shodan, OSINT techniques, passive fingerprinting |
-| 🌐 **Web Security** | Burp Suite, SQLi, XSS, OWASP Top 10 |
-| 📡 **Network Analysis** | Wireshark, tcpdump, packet inspection, traffic forensics |
-| 🔑 **Cryptography** | AES-GCM, RSA, Kyber (post-quantum KEM), SHA-2/3 |
-| 🛡️ **Hardening & Defense** | ufw / iptables, systemd, log analysis, fail2ban |
-| 🧠 **CTF & Practice** | TryHackMe, hands-on offensive lab environments |
-
----
-
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:0d1117,100:1a3a5c&height=2" />
-
-
-
-## 🚀 &nbsp;Featured Projects
+## Projects
 
 <!-- PROJECTS:START -->
 ### 🛡️ [Aegis](https://github.com/antonysabu1/Aegis)
-> Smart defense against online harm 
+> Smart defense against online harm
 
 `JavaScript`
-
-![Stars](https://img.shields.io/github/stars/antonysabu1/Aegis?style=flat-square&color=2e5d8e) ![Forks](https://img.shields.io/github/forks/antonysabu1/Aegis?style=flat-square&color=4a86c8)
-
----
-### 🔀 [Relayboy](https://github.com/antonysabu1/Relayboy)
-> No description provided.
-
-`TypeScript`
-
-![Stars](https://img.shields.io/github/stars/antonysabu1/Relayboy?style=flat-square&color=2e5d8e) ![Forks](https://img.shields.io/github/forks/antonysabu1/Relayboy?style=flat-square&color=4a86c8)
 
 ---
 ### 👁️ [ssh-attack-monitoring-using-splunk](https://github.com/antonysabu1/ssh-attack-monitoring-using-splunk)
@@ -182,95 +61,69 @@
 
 `Shell`
 
-![Stars](https://img.shields.io/github/stars/antonysabu1/ssh-attack-monitoring-using-splunk?style=flat-square&color=2e5d8e) ![Forks](https://img.shields.io/github/forks/antonysabu1/ssh-attack-monitoring-using-splunk?style=flat-square&color=4a86c8)
-
 ---
 
 ### 🗂️ More Projects
 
-- 🚀 [honeypot_adapter](https://github.com/antonysabu1/honeypot_adapter) — an adapter for honeypot ⭐ 2
+- 🚀 [honeypot_adapter](https://github.com/antonysabu1/honeypot_adapter) ⭐ 2
 - 🚀 [aes-gcm-256](https://github.com/antonysabu1/aes-gcm-256) ⭐ 2
 - 📡 [port-scan-analyzer](https://github.com/antonysabu1/port-scan-analyzer) — A Docker-based detection engineering lab to simulate, analyze, and detect network port scanning and reconnaissance activities. ⭐ 2
 <!-- PROJECTS:END -->
 
 ---
 
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:0d1117,100:1a3a5c&height=2" />
+## What I Work With
 
-## 📈 &nbsp;Learning Roadmap
-
-```
-✅  AES-GCM & RSA fundamentals
-✅  Linux hardening & systemd services
-✅  SSH brute-force detection & active IP blocking
-🔄  Network traffic analysis & practical red-team techniques
-🔄  Post-quantum cryptography — Kyber KEM
-⬜  Web app pen testing — full OWASP Top 10
-⬜  CEH / CompTIA Security+ certification
-```
-
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:1a3a5c,100:0d1117&height=2" />
+| Area | Tools and concepts |
+|:---|:---|
+| **Detection and defence** | Splunk, log analysis, fail2ban, ufw / iptables, systemd, Docker |
+| **Network analysis** | Nmap, Wireshark, tcpdump, packet inspection |
+| **Cryptography** | AES-GCM, RSA, SHA-2/3, learning Kyber (post-quantum KEM) |
+| **Web security** | Burp Suite, SQLi and XSS basics, learning the full OWASP Top 10 |
+| **Languages** | Python (main), Bash, JavaScript, plus C, Java and TypeScript from coursework |
+| **Workflow** | Linux, Git, GitHub Actions, Flask |
 
 ---
 
-## ⚡ &nbsp;Recent Activity
+## Learning Roadmap
+
+```
+[x] AES-GCM and RSA fundamentals
+[x] Linux hardening and systemd services
+[x] SSH brute-force detection and active IP blocking
+[~] Network traffic analysis and practical red-team techniques
+[~] Post-quantum cryptography: Kyber KEM
+[ ] Web app pentesting: full OWASP Top 10
+[ ] CompTIA Security+ or CEH
+```
+
+---
+
+## Recent Activity
 
 <!-- ACTIVITY:START -->
 1. 🌿 Created branch `telemetry-contract` in [`antonysabu1/honeypot_adapter`](https://github.com/antonysabu1/honeypot_adapter) <sub>Oct 10, 2026</sub>
-2. 🔀 Merged PR [__](https://github.com/antonysabu1/honeypot_adapter) in `antonysabu1/honeypot_adapter` <sub>Sep 24, 2026</sub>
+2. 🔀 Merged a pull request in [`antonysabu1/honeypot_adapter`](https://github.com/antonysabu1/honeypot_adapter) <sub>Sep 24, 2026</sub>
 <!-- ACTIVITY:END -->
 
 ---
 
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:0d1117,100:1a3a5c&height=2" />
-
----
-
-## 📊 &nbsp;GitHub Stats
-
 <div align="center">
 
-<img height="170" src="https://github-readme-stats.vercel.app/api?username=antonysabu1&show_icons=true&theme=github_dark&hide_border=true&rank_icon=github&icon_color=4a86c8&title_color=4a86c8&bg_color=0d1117" />
+<img height="170" src="https://github-readme-stats.vercel.app/api?username=antonysabu1&show_icons=true&theme=github_dark&hide_border=true&rank_icon=github&icon_color=4a86c8&title_color=4a86c8&bg_color=0d1117" alt="GitHub stats" />
 &nbsp;&nbsp;
-<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=antonysabu1&layout=compact&theme=github_dark&hide_border=true&title_color=4a86c8&bg_color=0d1117" />
+<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=antonysabu1&layout=compact&theme=github_dark&hide_border=true&title_color=4a86c8&bg_color=0d1117" alt="Top languages" />
 
 <br/>
 
-<img src="https://streak-stats.demolab.com/?user=antonysabu1&theme=github-dark-blue&hide_border=true&ring=4a86c8&fire=6aaee8&currStreakLabel=4a86c8&background=0d1117" />
+<img src="https://raw.githubusercontent.com/antonysabu1/antonysabu1/output/github-snake-dark.svg" alt="Contribution snake animation" />
 
+<br/><br/>
+
+<i>"Security is not a product, but a process." — Bruce Schneier</i>
 <br/>
-
-<img src="https://raw.githubusercontent.com/antonysabu1/antonysabu1/output/github-snake-dark.svg" alt="snake animation" />
-
-</div>
-
----
-
-## 🏆 &nbsp;GitHub Trophies
-
-<div align="center">
-  <img src="https://github-trophies.vercel.app/?username=antonysabu1&theme=onestar&no-bg=true&margin-w=8&column=7" />
-</div>
-
-
-
-
-## 💬 &nbsp;Quote of the Day
-
-<div align="center">
-
-<img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=dark" alt="Random cybersecurity quote" />
-
-</div>
-
----
-
-<div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:2e5d8e,100:0d1117&height=120&section=footer" />
-  <br/>
-  <i>"Security is not a product, but a process." — Bruce Schneier</i>
-  <br/><br/>
-  <sub>⚡ README auto-updates daily via GitHub Actions — last updated: <!-- LAST_UPDATED:START -->
+<sub>README updates daily via GitHub Actions. Last updated: <!-- LAST_UPDATED:START -->
 2026-10-18 10:07 UTC
 <!-- LAST_UPDATED:END --></sub>
+
 </div>

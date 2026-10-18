@@ -51,27 +51,15 @@ My part: the SSH/Telnet adapter. See [`honeypot_adapter`](https://github.com/ant
 
 <!-- PROJECTS:START -->
 ### 🛡️ [Aegis](https://github.com/antonysabu1/Aegis)
-> Smart defense against online harm 
+> Smart defense against online harm
 
 `JavaScript`
-
-![Stars](https://img.shields.io/github/stars/antonysabu1/Aegis?style=flat-square&color=2e5d8e) ![Forks](https://img.shields.io/github/forks/antonysabu1/Aegis?style=flat-square&color=4a86c8)
-
----
-### 🔀 [Relayboy](https://github.com/antonysabu1/Relayboy)
-> No description provided.
-
-`TypeScript`
-
-![Stars](https://img.shields.io/github/stars/antonysabu1/Relayboy?style=flat-square&color=2e5d8e) ![Forks](https://img.shields.io/github/forks/antonysabu1/Relayboy?style=flat-square&color=4a86c8)
 
 ---
 ### 👁️ [ssh-attack-monitoring-using-splunk](https://github.com/antonysabu1/ssh-attack-monitoring-using-splunk)
 > A SIEM-based intrusion detection system that monitors SSH authentication logs, detects brute force attacks, and visualizes threats using Splunk dashboards and automated alerts.
 
 `Shell`
-
-![Stars](https://img.shields.io/github/stars/antonysabu1/ssh-attack-monitoring-using-splunk?style=flat-square&color=2e5d8e) ![Forks](https://img.shields.io/github/forks/antonysabu1/ssh-attack-monitoring-using-splunk?style=flat-square&color=4a86c8)
 
 ---
 
@@ -115,7 +103,7 @@ My part: the SSH/Telnet adapter. See [`honeypot_adapter`](https://github.com/ant
 
 <!-- ACTIVITY:START -->
 1. 🌿 Created branch `telemetry-contract` in [`antonysabu1/honeypot_adapter`](https://github.com/antonysabu1/honeypot_adapter) <sub>Oct 10, 2026</sub>
-2. 🔀 Merged PR [__](https://github.com/antonysabu1/honeypot_adapter) in `antonysabu1/honeypot_adapter` <sub>Sep 24, 2026</sub>
+2. 🔀 Merged PR [#2](https://github.com/antonysabu1/honeypot_adapter/pull/2) in `antonysabu1/honeypot_adapter` <sub>Sep 24, 2026</sub>
 <!-- ACTIVITY:END -->
 
 ---
@@ -135,7 +123,7 @@ My part: the SSH/Telnet adapter. See [`honeypot_adapter`](https://github.com/ant
 <i>"Security is not a product, but a process." — Bruce Schneier</i>
 <br/>
 <sub>README updates daily via GitHub Actions. Last updated: <!-- LAST_UPDATED:START -->
-2026-10-18 18:31 UTC
+2026-10-18 18:35 UTC
 <!-- LAST_UPDATED:END --></sub>
 
 </div>

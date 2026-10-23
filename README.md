@@ -102,8 +102,9 @@ My part: the SSH/Telnet adapter. See [`honeypot_adapter`](https://github.com/ant
 ## Recent Activity
 
 <!-- ACTIVITY:START -->
-1. 🌿 Created branch `telemetry-contract` in [`antonysabu1/honeypot_adapter`](https://github.com/antonysabu1/honeypot_adapter) <sub>Oct 10, 2026</sub>
-2. 🔀 Merged PR [#2](https://github.com/antonysabu1/honeypot_adapter/pull/2) in `antonysabu1/honeypot_adapter` <sub>Sep 24, 2026</sub>
+1. 🔀 Opened PR [#10](https://github.com/clemantmathewjiji/FTPbased-honeypot/pull/10) in `clemantmathewjiji/FTPbased-honeypot` <sub>Oct 22, 2026</sub>
+2. 🌿 Created branch `telemetry-contract` in [`antonysabu1/honeypot_adapter`](https://github.com/antonysabu1/honeypot_adapter) <sub>Oct 10, 2026</sub>
+3. 🔀 Merged PR [#2](https://github.com/antonysabu1/honeypot_adapter/pull/2) in `antonysabu1/honeypot_adapter` <sub>Sep 24, 2026</sub>
 <!-- ACTIVITY:END -->
 
 ---
@@ -119,7 +120,7 @@ My part: the SSH/Telnet adapter. See [`honeypot_adapter`](https://github.com/ant
 <i>"Security is not a product, but a process." — Bruce Schneier</i>
 <br/>
 <sub>README updates daily via GitHub Actions. Last updated: <!-- LAST_UPDATED:START -->
-2026-10-18 18:38 UTC
+2026-10-23 10:44 UTC
 <!-- LAST_UPDATED:END --></sub>
 
 </div>

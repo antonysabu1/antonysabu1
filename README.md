@@ -26,24 +26,9 @@
 
 CSE (Cyber Security) student at **St. Joseph's College of Engineering and Technology, Palai**. I work on threat detection and active defence, and I am learning cryptography and offensive security alongside it.
 
-- Final-year team project: **HYDRA**, an adaptive honeypot (details below)
+- Final-year team project: **HYDRA**, an adaptive honeypot — my part was the SSH/Telnet adapter, see [`honeypot_adapter`](https://github.com/antonysabu1/honeypot_adapter)
 - Currently building **Aegis**, a JavaScript project on defence against online harm
 - Currently learning post-quantum cryptography (Kyber KEM) and TryHackMe red team paths
-
----
-
-## Featured: HYDRA
-
-**Hyper-adaptive Yielding Decoy with Reinforcement Learning Automated Defence.** A four-person final-year project: a lightweight, explainable honeypot that changes what it shows each attacker session based on the behaviour it observes.
-
-- Four layers: Interaction, Observation, Intelligence and Control, plus a read-only authenticated dashboard
-- Protocol adapters for web, FTP, SSH/Telnet and MySQL/PostgreSQL, sharing one event schema
-- Intelligence layer: Decision Tree, Markov Chain and Isolation Forest, with a hand-authored vulnerability graph choosing the response
-- Tested locally against Nmap, Nikto, Hydra and SQLmap
-
-**Honest status:** a working prototype trained on synthetic data. It is not deployed against real attackers, and its results do not prove equal performance on real traffic.
-
-My part: the SSH/Telnet adapter. See [`honeypot_adapter`](https://github.com/antonysabu1/honeypot_adapter) for the adapter work.
 
 ---
 
